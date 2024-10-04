@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ApexCareSolutions.Models.Clients
 {
-    public class Clients
+    public class ClientModel
     {
         // UML Client Model 
         //ClientID, Username, FirstName, LastName, Address, Phone, Email
@@ -19,12 +19,12 @@ namespace ApexCareSolutions.Models.Clients
     
 
 
-        public Clients()
+        public ClientModel()
         {
             
 
         }
-        public Clients(int clientID, string username, string firstName, string lastName, string address, string phone, string email)
+        public ClientsModel(int clientID, string username, string firstName, string lastName, string address, string phone, string email)
         {
             ClientID = clientID;
             Username = username;

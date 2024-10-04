@@ -7,5 +7,7 @@ namespace ApexCareSolutions.Models.MVC
 {
     public class ClientView
     {
+        
+
     }
 }

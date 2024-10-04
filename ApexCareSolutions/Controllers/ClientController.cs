@@ -7,5 +7,6 @@ namespace ApexCareSolutions.Models.MVC
 {
     public class ClientController
     {
+
     }
 }

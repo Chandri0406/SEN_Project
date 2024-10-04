@@ -7,15 +7,15 @@ namespace ApexCareSolutions.Models.Factory
 {
     public class WarrantyContract : IContract, IResidency
     {
-        int ContractID { get; set; }
-        int ClientID { get; set; }
-        DateTime StartDate { get; set; }
-        DateTime EndDate { get; set; }
-        string Status { get; set; }
+        public int ContractID { get; set; }
+        public int ClientID { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string Status { get; set; }
 
-        string Type { get; set; }
+        public string Type { get; set; }
 
-        string Residency { get; set; }
+        public string Residency { get; set; }
 
         public WarrantyContract(int clientID, DateTime startDate, DateTime endDate, string status, string residency)
         {

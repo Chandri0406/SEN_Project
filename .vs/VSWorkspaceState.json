@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ApexCareSolutions",
+    "\\ApexCareSolutions\\Models",
+    "\\ApexCareSolutions\\Views"
   ],
+  "SelectedNode": "\\ApexCareSolutions\\Models\\ClientModel.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|c:\\users\\user\\source\\repos\\chandri0406\\sen_project\\apexcaresolutions\\models\\mvc\\clientview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\mvc\\clientview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|c:\\users\\user\\source\\repos\\chandri0406\\sen_project\\apexcaresolutions\\views\\clientview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:views\\clientview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\models\\mvc\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -56,10 +56,10 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClientView.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\MVC\\ClientView.cs",
-              "RelativeDocumentMoniker": "Models\\MVC\\ClientView.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\MVC\\ClientView.cs",
-              "RelativeToolTip": "Models\\MVC\\ClientView.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Source\\Repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Views\\ClientView.cs",
+              "RelativeDocumentMoniker": "Views\\ClientView.cs",
+              "ToolTip": "C:\\Users\\User\\Source\\Repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Views\\ClientView.cs",
+              "RelativeToolTip": "Views\\ClientView.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T17:11:08.345Z",

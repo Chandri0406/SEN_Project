@@ -45,7 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>..\..\..\..\..\..\..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -137,9 +139,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\ClientController.cs" />
-    <Compile Include="Models\ClientModel.cs" />
-    <Compile Include="Views\ClientView.cs" />
+    <Compile Include="Models\Factory\CommercialContract.cs" />
+    <Compile Include="Models\Factory\ContractFactory.cs" />
+    <Compile Include="Models\Factory\IContract.cs" />
+    <Compile Include="Models\Factory\IResidency.cs" />
+    <Compile Include="Models\Factory\PrivateContract.cs" />
+    <Compile Include="Models\Factory\WarrantyContract.cs" />
     <Compile Include="Models\TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

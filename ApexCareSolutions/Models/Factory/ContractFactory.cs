@@ -9,7 +9,7 @@ namespace ApexCareSolutions.Models.Factory
     {
         public IContract CreateContract(string type)
         {
-            switch (type.toLowerInvariant())
+            switch (type.ToLower())
             {
                 case "commercial":
                     return new CommercialContract();

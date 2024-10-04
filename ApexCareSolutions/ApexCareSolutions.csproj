@@ -180,6 +180,12 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="wwwroot\icons\angle-downB.png" />
+    <Content Include="wwwroot\icons\chart-histogramY.png" />
+    <Content Include="wwwroot\icons\eclipse-altY.png" />
+    <Content Include="wwwroot\icons\settings-slidersY.png" />
+    <Content Include="wwwroot\icons\settingsY.png" />
+    <Content Include="wwwroot\icons\userY.png" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -205,9 +211,16 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\AgentView\" />
+    <Folder Include="Views\ClientView\" />
+    <Folder Include="Views\TechnicianView\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

@@ -24,5 +24,25 @@ namespace ApexCareSolutions.Models.Factory
                     return null;
             }
         }
+
+        public string DetermineType(IContract c)
+        {
+            if(c is CommercialContract ct1)
+            {
+                return ct1.Type;
+            }
+            else if(c is PrivateContract ct2)
+            {
+                return ct2.Type;
+            }
+            else if(c is WarrantyContract ct3)
+            {
+                return ct3.Type;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

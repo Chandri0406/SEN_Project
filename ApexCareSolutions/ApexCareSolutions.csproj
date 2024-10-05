@@ -142,7 +142,12 @@
     <Compile Include="Models\Factory\CommercialContract.cs" />
     <Compile Include="Models\Factory\ContractFactory.cs" />
     <Compile Include="Models\Factory\IContract.cs" />
+    <Compile Include="Models\Factory\IIssue.cs" />
+    <Compile Include="Models\Factory\InstallationIssue.cs" />
     <Compile Include="Models\Factory\IResidency.cs" />
+    <Compile Include="Models\Factory\IssueFactory.cs" />
+    <Compile Include="Models\Factory\MalfunctionIssue.cs" />
+    <Compile Include="Models\Factory\PowerTripIssue.cs" />
     <Compile Include="Models\Factory\PrivateContract.cs" />
     <Compile Include="Models\Factory\WarrantyContract.cs" />
     <Compile Include="Models\TestClass.cs" />

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IContract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Factory\\IContract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\models\\factory\\contractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\factory\\contractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,14 +71,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IContract.cs",
-              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IContract.cs",
-              "RelativeDocumentMoniker": "Models\\Factory\\IContract.cs",
-              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IContract.cs",
-              "RelativeToolTip": "Models\\Factory\\IContract.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IssueFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IssueFactory.cs",
+              "RelativeDocumentMoniker": "Models\\Factory\\IssueFactory.cs",
+              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IssueFactory.cs",
+              "RelativeToolTip": "Models\\Factory\\IssueFactory.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T20:43:09.389Z",
+              "WhenOpened": "2024-10-05T07:21:42.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContractFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\ContractFactory.cs",
+              "RelativeDocumentMoniker": "Models\\Factory\\ContractFactory.cs",
+              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\ContractFactory.cs",
+              "RelativeToolTip": "Models\\Factory\\ContractFactory.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T20:44:06.147Z",
               "EditorCaption": ""
             }
           ]

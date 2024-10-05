@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,6 +75,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Models\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
+              "RelativeToolTip": "Models\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T14:22:47.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "IssueFactory.cs",
               "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IssueFactory.cs",
               "RelativeDocumentMoniker": "Models\\Factory\\IssueFactory.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ContractFactory.cs",
               "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\ContractFactory.cs",
               "RelativeDocumentMoniker": "Models\\Factory\\ContractFactory.cs",
@@ -91,8 +108,7 @@
               "RelativeToolTip": "Models\\Factory\\ContractFactory.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T20:44:06.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T20:44:06.147Z"
             }
           ]
         }

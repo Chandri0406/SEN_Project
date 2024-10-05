@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -78,9 +78,9 @@
               "Title": "DBConnection.cs",
               "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
               "RelativeDocumentMoniker": "Models\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
-              "RelativeToolTip": "Models\\DBConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs*",
+              "RelativeToolTip": "Models\\DBConnection.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T14:22:47.363Z",
               "EditorCaption": ""
@@ -95,8 +95,7 @@
               "RelativeToolTip": "Models\\Factory\\IssueFactory.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAIwCcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T07:21:42.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T07:21:42.395Z"
             },
             {
               "$type": "Document",

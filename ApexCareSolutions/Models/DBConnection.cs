@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using ApexCareSolutions.Models.Factory;
 using Npgsql;
 
 namespace ApexCareSolutions.Models
@@ -9,6 +10,8 @@ namespace ApexCareSolutions.Models
     public class DBConnection
     {
         private readonly string _connectionString;
+        private ContractFactory contractFactory;
+        private IssueFactory issueFactory;
 
         public DatabaseConnection()
         {

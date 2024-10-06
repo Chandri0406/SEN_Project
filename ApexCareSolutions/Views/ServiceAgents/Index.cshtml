@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ApexCareSolutions.Models.ServiceAgent>
+
+<h2>Service Agents</h2>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Service Agent</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Agent ID</th>
+            <th>Username</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var agent in Model)
+        {
+            <tr>
+                <td>@agent.AgentID</td>
+                <td>@agent.Username</td>
+                <td>@agent.FirstName</td>
+                <td>@agent.LastName</td>
+                <td>@agent.Phone</td>
+                <td>@agent.Email</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@agent.AgentID" class="btn btn-warning">Edit</a>
+                    <a asp-action="Details" asp-route-id="@agent.AgentID" class="btn btn-info">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -13,5 +13,8 @@ namespace ApexCareSolutions.Models.Factory
         DateTime StartDate { get; }
         DateTime EndDate { get; }
         string Status { get; }
+
     }
+   // IEnumerable<IContract> GetContractsByClientId(int clientId);
+    //IEnumerable<IContract> GetOngoingContractsByClientId(int clientId);
 }

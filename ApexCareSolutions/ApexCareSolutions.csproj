@@ -185,6 +185,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\TechnicianController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -200,6 +201,7 @@
     <Compile Include="Models\Factory\PowerTripIssue.cs" />
     <Compile Include="Models\Factory\PrivateContract.cs" />
     <Compile Include="Models\Factory\WarrantyContract.cs" />
+    <Compile Include="Models\Technician.cs" />
     <Compile Include="Models\TestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

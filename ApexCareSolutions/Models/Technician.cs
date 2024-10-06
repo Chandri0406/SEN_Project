@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using ApexCareSolutions.Models.Factory;
 
@@ -67,3 +67,4 @@ namespace ApexCareSolutions.Models
             Console.WriteLine($"Handling issue ID: {issue.IssueID}, Priority: {issue.Priority}");
         }
     }
+}

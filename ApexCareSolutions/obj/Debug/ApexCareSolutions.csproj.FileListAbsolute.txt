@@ -85,3 +85,7 @@ C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.pdb
 C:\Users\Super\OneDrive\Documents\University Work\Belgium Campus\BIT\3rd Year\Software Engineering 371_SEN371\Project\ApexCareSystem\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.dll
 C:\Users\Super\OneDrive\Documents\University Work\Belgium Campus\BIT\3rd Year\Software Engineering 371_SEN371\Project\ApexCareSystem\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.pdb
+C:\Users\User\Source\Repos\Chandri0406\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.csproj.AssemblyReference.cache
+C:\Users\User\Source\Repos\Chandri0406\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.csproj.CoreCompileInputs.cache
+C:\Users\User\Source\Repos\Chandri0406\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.dll
+C:\Users\User\Source\Repos\Chandri0406\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.pdb

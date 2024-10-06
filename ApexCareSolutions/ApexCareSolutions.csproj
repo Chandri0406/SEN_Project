@@ -139,6 +139,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CallLog.cs" />
+    <Compile Include="Models\Clients.cs" />
     <Compile Include="Models\DBConnection.cs" />
     <Compile Include="Models\Factory\CommercialContract.cs" />
     <Compile Include="Models\Factory\ContractFactory.cs" />

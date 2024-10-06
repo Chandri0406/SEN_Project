@@ -1,43 +1,49 @@
 ﻿using ApexCareSolutions.Models;
-using ApexCareSolutions.Views;
+using ApexCareSolutions.Repositories;
+using System.Web.Mvc;
 
 namespace ApexCareSolutions.Controllers
 {
-    public class ServiceAgentController
+    public class ServiceAgentController : Controller
     {
         private readonly IServiceAgentRepository _serviceAgentRepository;
         private readonly IJobRepository _jobRepository;
-        private readonly ServiceAgentView _serviceAgentView;
 
         public ServiceAgentController(IServiceAgentRepository serviceAgentRepository, IJobRepository jobRepository)
         {
             _serviceAgentRepository = serviceAgentRepository;
             _jobRepository = jobRepository;
-            _serviceAgentView = new ServiceAgentView(_serviceAgentRepository, _jobRepository); // Initialize the view with the repositories
         }
 
         // View all jobs assigned to the service agent
-        public void ViewAssignedJobs(int agentId)
+        public ActionResult ViewAssignedJobs(string agentId)
         {
-            _serviceAgentView.ViewAssignedJobs(agentId);
+            var jobs = _jobRepository.GetJobsByAgentId(agentId); // Retrieve jobs assigned to the agent
+            return View("AssignedJobs", jobs); // Pass jobs to the AssignedJobs.cshtml view
         }
 
         // Update the status of a job
-        public void UpdateJobStatus(int jobId, string newStatus)
+        [HttpPost]
+        public ActionResult UpdateJobStatus(int jobId, string newStatus)
         {
-            _serviceAgentView.UpdateJobStatus(jobId, newStatus);
+            _jobRepository.UpdateJobStatus(jobId, newStatus);
+            return RedirectToAction("ViewAssignedJobs", new { agentId = /* current agentId */ });
         }
 
         // Escalate or reassign a job
-        public void EscalateOrReassignJob(int jobId, string action)
+        [HttpPost]
+        public ActionResult EscalateOrReassignJob(int jobId, string action)
         {
-            _serviceAgentView.EscalateOrReassignJob(jobId, action);
+            _jobRepository.EscalateOrReassignJob(jobId, action);
+            return RedirectToAction("ViewAssignedJobs", new { agentId = /* current agentId */ });
         }
 
         // Close a job after completion
-        public void CloseJob(int jobId)
+        [HttpPost]
+        public ActionResult CloseJob(int jobId)
         {
-            _serviceAgentView.CloseJob(jobId);
+            _jobRepository.CloseJob(jobId);
+            return RedirectToAction("ViewAssignedJobs", new { agentId = /* current agentId */ });
         }
     }
 }

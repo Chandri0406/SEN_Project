@@ -1,9 +1,14 @@
-﻿using System.Collections.Generic;
-using ApexCareSolutions.Models;
+﻿using ApexCareSolutions.Models;
+using System.Collections.Generic;
 
-public interface ICallLogRepository
+namespace ApexCareSolutions.Repositories
 {
-    CallLog GetCallLogById(int callId);
-    void AddCallLog(CallLog callLog);
-    List<CallLog> GetAllCallLogs();
+    public interface ICallLogRepository
+    {
+        IEnumerable<CallLog> GetAllCallLogs();
+        CallLog GetCallLogById(int id);
+        void AddCallLog(CallLog callLog);
+        void UpdateCallLog(CallLog callLog);
+        void DeleteCallLog(int id);
+    }
 }

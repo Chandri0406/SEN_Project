@@ -28,9 +28,13 @@ public class ServiceAgentRepository : IServiceAgentRepository
                             return new ServiceAgent
                             {
                                 AgentID = (string)reader["AgentID"],
-                                Name = (string)reader["Name"],
+                                //Username, FirstName, LastName,Phone,Email
+                                Username = (string)reader["Username"],
+                                FirstName = (string)reader["FirstName"],
+                                LastName = (string)reader["LastName"],
                                 Phone = (string)reader["Phone"],
-                                Email = (string)reader["Email"]
+                                Email = (string)reader["Email"],
+
                             };
                         }
                     }

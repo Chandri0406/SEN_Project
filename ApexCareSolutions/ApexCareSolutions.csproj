@@ -212,11 +212,10 @@
     <Compile Include="Repositories\ClientRepository.cs" />
     <Compile Include="Repositories\ICallLogRepository.cs" />
     <Compile Include="Repositories\IClientRepository.cs" />
+    <Compile Include="Repositories\IJobRepository.cs" />
     <Compile Include="Repositories\IServiceAgentRepository.cs" />
+    <Compile Include="Repositories\JobRepository.cs" />
     <Compile Include="Repositories\ServiceAgentRepository.cs" />
-    <Compile Include="Views\CallLogView.cs" />
-    <Compile Include="Views\ClientView.cs" />
-    <Compile Include="Views\ServiceAgentView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -269,6 +268,18 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\CallLog\Index.cshtml" />
+    <Content Include="Views\CallLog\Create.cshtml" />
+    <Content Include="Views\CallLog\Edit.cshtml" />
+    <Content Include="Views\CallLog\Details.cshtml" />
+    <Content Include="Views\Clients\Index.cshtml" />
+    <Content Include="Views\Clients\Create.cshtml" />
+    <Content Include="Views\Clients\Edit.cshtml" />
+    <Content Include="Views\Clients\Details.cshtml" />
+    <Content Include="Views\ServiceAgents\Index.cshtml" />
+    <Content Include="Views\ServiceAgents\Create.cshtml" />
+    <Content Include="Views\ServiceAgents\Edit.cshtml" />
+    <Content Include="Views\ServiceAgents\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

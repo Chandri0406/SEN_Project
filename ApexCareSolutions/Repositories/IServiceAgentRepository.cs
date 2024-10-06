@@ -1,9 +1,14 @@
 ﻿using ApexCareSolutions.Models;
+using System.Collections.Generic;
 
-public interface IServiceAgentRepository
+namespace ApexCareSolutions.Repositories
 {
-    ServiceAgent GetServiceAgentById(string agentId);
-    void AddServiceAgent(ServiceAgent serviceAgent);
-    void UpdateServiceAgent(ServiceAgent serviceAgent);
-    void DeleteServiceAgent(string agentId);
+    public interface IServiceAgentRepository
+    {
+        IEnumerable<ServiceAgent> GetAllServiceAgents();
+        ServiceAgent GetServiceAgentById(string id);
+        void AddServiceAgent(ServiceAgent agent);
+        void UpdateServiceAgent(ServiceAgent agent);
+        void DeleteServiceAgent(string id);
+    }
 }

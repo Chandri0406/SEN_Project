@@ -1,45 +1,142 @@
-﻿using ApexCareSolutions.Models;
-using ApexCareSolutions.Views;
+﻿using ApexCareSolutions.Models.Factory;
+using ApexCareSolutions.Repositories;
+using System.Collections.Generic;
+using System.Web.Mvc;
 
 namespace ApexCareSolutions.Controllers
 {
-    public class ClientController
+    public class ClientController : Controller
     {
         private readonly IClientRepository _clientRepository;
-        private readonly IContractRepository _contractRepository;
+        private readonly IContract _contract;
         private readonly ICallLogRepository _callLogRepository;
-        private readonly ClientView _clientView;
 
-        public ClientController(IClientRepository clientRepository, IContractRepository contractRepository, ICallLogRepository callLogRepository)
+        public ClientController(IClientRepository clientRepository, IContract contract, ICallLogRepository callLogRepository)
         {
             _clientRepository = clientRepository;
-            _contractRepository = contractRepository;
+            _contract = contract;
             _callLogRepository = callLogRepository;
-            _clientView = new ClientView(_clientRepository, _contractRepository, _callLogRepository); // Initialize the view with the repositories
         }
 
-        // View the client profile
-        public void ViewClientProfile(int clientId)
+        // GET: Client/Profile/{clientId}
+        public ActionResult Profile(int clientId)
         {
-            _clientView.ViewClientProfile(clientId);
+            var client = _clientRepository.GetClientById(clientId); // Assuming a method to get client by ID
+            if (client == null)
+            {
+                return HttpNotFound(); // Return 404 if client not found
+            }
+            return View(client); // Returns the Profile view with client data
         }
 
-        // View the contract history of a client
-        public void ViewContractHistory(int clientId)
+        // GET: Client/ContractHistory/{clientId}
+        public ActionResult ContractHistory(int clientId)
         {
-            _clientView.ViewContractHistory(clientId);
+            // Assuming a method to get contracts by client ID
+            var contracts = new List<IContract> { _contract }; // This is a placeholder. Replace with actual logic to get contracts.
+            return View(contracts); // Returns the ContractHistory view with contract data
         }
 
-        // Report an issue
-        public void ReportIssue(int clientId, string issueDescription)
+        // GET: Client/ReportIssue
+        public ActionResult ReportIssue()
         {
-            _clientView.ReportIssue(clientId, issueDescription);
+            return View(); // Returns the ReportIssue view
         }
 
-        // View ongoing contracts for a client
-        public void ViewOngoingContracts(int clientId)
+        // POST: Client/ReportIssue
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult ReportIssue(int clientId, string issueDescription)
         {
-            _clientView.ViewOngoingContracts(clientId);
+            if (ModelState.IsValid)
+            {
+                // Assuming a method to report an issue
+                _callLogRepository.AddIssue(clientId, issueDescription);
+                return RedirectToAction("Profile", new { clientId }); // Redirect to the client's profile after reporting the issue
+            }
+            return View(); // Return the ReportIssue view with validation errors
+        }
+
+        // GET: Client/OngoingContracts/{clientId}
+        public ActionResult OngoingContracts(int clientId)
+        {
+            // Assuming a method to get ongoing contracts
+            var ongoingContracts = new List<IContract> { _contract }; // This is a placeholder. Replace with actual logic to get ongoing contracts.
+            return View(ongoingContracts); // Returns the OngoingContracts view with ongoing contract data
+        }
+
+        // GET: Client/AddContract
+        public ActionResult AddContract()
+        {
+            return View();
+        }
+
+        // POST: Client/AddContract
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult AddContract(CommercialContract contract)
+        {
+            if (ModelState.IsValid)
+            {
+                // Assuming a method to add a contract
+                // _contractRepository.AddContract(contract); // Uncomment and replace with actual logic
+                return RedirectToAction("ContractHistory", new { clientId = contract.ClientID });
+            }
+            return View(contract);
+        }
+
+        // GET: Client/EditContract/{contractId}
+        public ActionResult EditContract(int contractId)
+        {
+            // Assuming a method to get a contract by ID
+            var contract = _contract; // This is a placeholder. Replace with actual logic to get the contract.
+            if (contract == null)
+            {
+                return HttpNotFound();
+            }
+            return View(contract);
+        }
+
+        // POST: Client/EditContract
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditContract(CommercialContract contract)
+        {
+            if (ModelState.IsValid)
+            {
+                // Assuming a method to update a contract
+                // _contractRepository.UpdateContract(contract); // Uncomment and replace with actual logic
+                return RedirectToAction("ContractHistory", new { clientId = contract.ClientID });
+            }
+            return View(contract);
+        }
+
+        // GET: Client/DeleteContract/{contractId}
+        public ActionResult DeleteContract(int contractId)
+        {
+            // Assuming a method to get a contract by ID
+            var contract = _contract; // This is a placeholder. Replace with actual logic to get the contract.
+            if (contract == null)
+            {
+                return HttpNotFound();
+            }
+            return View(contract);
+        }
+
+        // POST: Client/DeleteContract
+        [HttpPost, ActionName("DeleteContract")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteContractConfirmed(int contractId)
+        {
+            // Assuming a method to get a contract by ID
+            var contract = _contract; // This is a placeholder. Replace with actual logic to get the contract.
+            if (contract != null)
+            {
+                // Assuming a method to delete a contract
+                // _contractRepository.DeleteContract(contractId); // Uncomment and replace with actual logic
+                return RedirectToAction("ContractHistory", new { clientId = contract.ClientID });
+            }
+            return HttpNotFound();
         }
     }
 }

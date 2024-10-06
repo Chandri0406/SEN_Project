@@ -28,9 +28,12 @@ public class ClientRepository : IClientRepository
                             return new Clients
                             {
                                 ClientID = (int)reader["ClientID"],
-                                Name = (string)reader["Name"],
-                                Email = (string)reader["Email"],
-                                Phone = (string)reader["Phone"]
+                                Username = reader["Username"].ToString(),
+                                FirstName = reader["FirstName"].ToString(),
+                                LastName = reader["LastName"].ToString(),
+                                Address = reader["Address"].ToString(),
+                                Phone = reader["Phone"].ToString(),
+
                             };
                         }
                     }

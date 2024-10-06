@@ -1,0 +1,26 @@
+﻿@model ApexCareSolutions.Models.Clients
+
+<h2>Client Details</h2>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Client ID</dt>
+        <dd>@Model.ClientID</dd>
+        <dt>Username</dt>
+        <dd>@Model.Username</dd>
+        <dt>First Name</dt>
+        <dd>@Model.FirstName</dd>
+        <dt>Last Name</dt>
+        <dd>@Model.LastName</dd>
+        <dt>Address</dt>
+        <dd>@Model.Address</dd>
+        <dt>Phone</dt>
+        <dd>@Model.Phone</dd>
+        <dt>Email</dt>
+        <dd>@Model.Email</dd>
+    </dl>
+    <a asp-action="Edit" asp-route-id="@Model.ClientID" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

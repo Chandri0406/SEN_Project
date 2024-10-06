@@ -1,41 +1,77 @@
 ﻿using ApexCareSolutions.Models;
-using ApexCareSolutions.Views;
+using ApexCareSolutions.Repositories;
+using System.Web.Mvc;
 
 namespace ApexCareSolutions.Controllers
 {
-    public class CallLogController
+    public class CallLogController : Controller
     {
         private readonly ICallLogRepository _callLogRepository;
-        private readonly CallLogView _callLogView;
 
         public CallLogController(ICallLogRepository callLogRepository)
         {
             _callLogRepository = callLogRepository;
-            _callLogView = new CallLogView(_callLogRepository); // Initialize the view with the repository
         }
 
-        // Log a new call
-        public void LogNewCall(CallLog callLog)
+        // GET: CallLog
+        public ActionResult Index()
         {
-            _callLogView.LogNewCall(callLog);
+            var callLogs = _callLogRepository.GetAllCallLogs(); // Assuming you have a method to get all call logs
+            return View(callLogs); // Returns the Index view with the list of call logs
         }
 
-        // Update an existing call log
-        public void UpdateCallLog(CallLog callLog)
+        // GET: CallLog/Create
+        public ActionResult Create()
         {
-            _callLogView.UpdateCallLog(callLog);
+            return View(); // Returns the Create view
         }
 
-        // View call logs for a specific client
-        public void ViewCallLogsByClient(int clientId)
+        // POST: CallLog/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(CallLog callLog)
         {
-            _callLogView.ViewCallLogsByClient(clientId);
+            if (ModelState.IsValid)
+            {
+                _callLogRepository.AddCallLog(callLog); // Assuming a method to add a call log
+                return RedirectToAction("Index"); // Redirect to the Index action after creation
+            }
+            return View(callLog); // Returns the Create view with validation errors
         }
 
-        // View a specific call log by its ID
-        public void ViewCallLogById(int callId)
+        // GET: CallLog/Edit/{id}
+        public ActionResult Edit(int id)
         {
-            _callLogView.ViewCallLogById(callId);
+            var callLog = _callLogRepository.GetCallLogById(id); // Assuming a method to get a call log by ID
+            if (callLog == null)
+            {
+                return HttpNotFound(); // Return 404 if the call log is not found
+            }
+            return View(callLog); // Returns the Edit view with the call log data
+        }
+
+        // POST: CallLog/Edit/{id}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(CallLog callLog)
+        {
+            if (ModelState.IsValid)
+            {
+                _callLogRepository.UpdateCallLog(callLog); // Assuming a method to update a call log
+                return RedirectToAction("Index"); // Redirect to the Index action after update
+            }
+            return View(callLog); // Returns the Edit view with validation errors
+        }
+
+        // GET: CallLog/Details/{id}
+        public ActionResult Details(int id)
+        {
+            var callLog = _callLogRepository.GetCallLogById(id); // Assuming a method to get a call log by ID
+            if (callLog == null)
+            {
+                return HttpNotFound(); // Return 404 if the call log is not found
+            }
+            return View(callLog); // Returns the Details view with the call log data
         }
     }
 }

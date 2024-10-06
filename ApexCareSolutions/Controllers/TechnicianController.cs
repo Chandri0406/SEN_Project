@@ -1,11 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Assignment.Models;
+using ApexCareSolutions.Models;
 using System.Linq;
 
-namespace Assignment.Controllers
+namespace ApexCareSolutions.Controllers
 {
     public class TechnicianController : Controller
     {
-        private readonly
+        public ActionResult Technician()
+        {
+            return View();
+        }
     }
 }

@@ -1,30 +1,29 @@
-﻿@model Assignment.Models.Technician
+﻿@model IEnumerable<ApexCareSolutions.Models.Technician>
 
-<h2>Technician Details</h2>
+<h2>Technician List</h2>
 
 <table class="table">
-    <tr>
-        <th>Technician ID</th>
-        <td>@Model.TechnicianID</td>
-    </tr>
-    <tr>
-        <th>Username</th>
-        <td>@Model.Username</td>
-    </tr>
-    <tr>
-        <th>First Name</th>
-        <td>@Model.FirstName</td>
-    </tr>
-    <tr>
-        <th>Last Name</th>
-        <td>@Model.LastName</td>
-    </tr>
-    <tr>
-        <th>Phone</th>
-        <td>@Model.Phone</td>
-    </tr>
-    <tr>
-        <th>Email</th>
-        <td>@Model.Email</td>
-    </tr>
+    <thead>
+        <tr>
+            <th>TechnicianID</th>
+            <th>Username</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var technician in Model)
+        {
+            <tr>
+                <td>@technician.TechnicianID</td>
+                <td>@technician.Username</td>
+                <td>@technician.FirstName</td>
+                <td>@technician.LastName</td>
+                <td>@technician.Phone</td>
+                <td>@technician.Email</td>
+            </tr>
+        }
+    </tbody>
 </table>

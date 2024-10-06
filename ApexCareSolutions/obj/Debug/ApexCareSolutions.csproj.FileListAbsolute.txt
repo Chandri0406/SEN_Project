@@ -83,3 +83,5 @@ C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\ApexCare.76154131.Up2Date
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.dll
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.pdb
+C:\Users\Super\OneDrive\Documents\University Work\Belgium Campus\BIT\3rd Year\Software Engineering 371_SEN371\Project\ApexCareSystem\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.dll
+C:\Users\Super\OneDrive\Documents\University Work\Belgium Campus\BIT\3rd Year\Software Engineering 371_SEN371\Project\ApexCareSystem\SEN_Project\ApexCareSolutions\obj\Debug\ApexCareSolutions.pdb

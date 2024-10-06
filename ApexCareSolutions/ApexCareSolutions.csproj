@@ -135,10 +135,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ComplaintController.cs" />
+    <Compile Include="Controllers\FeedbackController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Complaint.cs" />
     <Compile Include="Models\DBConnection.cs" />
     <Compile Include="Models\Factory\CommercialContract.cs" />
     <Compile Include="Models\Factory\ContractFactory.cs" />
@@ -151,7 +155,9 @@
     <Compile Include="Models\Factory\PowerTripIssue.cs" />
     <Compile Include="Models\Factory\PrivateContract.cs" />
     <Compile Include="Models\Factory\WarrantyContract.cs" />
+    <Compile Include="Models\Feedback.cs" />
     <Compile Include="Models\TestClass.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

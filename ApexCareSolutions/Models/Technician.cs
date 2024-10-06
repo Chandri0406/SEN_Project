@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using ApexCareSolutions.Models.Factory;
 
 namespace ApexCareSolutions.Models
 {
@@ -60,3 +61,9 @@ namespace ApexCareSolutions.Models
             get { return email; }
             set { email = value; }
         }
+
+        public void LogIssue(IIssue issue)
+        {
+            Console.WriteLine($"Handling issue ID: {issue.IssueID}, Priority: {issue.Priority}");
+        }
+    }

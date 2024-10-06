@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|c:\\users\\user\\source\\repos\\chandri0406\\sen_project\\apexcaresolutions\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\factory\\issuefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\models\\factory\\contractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5DC06E4-8C8F-4847-BCF8-83B8CB4B4CD1}|ApexCareSolutions.csproj|solutionrelative:models\\factory\\contractfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,67 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
-              "RelativeDocumentMoniker": "Models\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
-              "RelativeToolTip": "Models\\DBConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T14:22:47.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IssueFactory.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IssueFactory.cs",
-              "RelativeDocumentMoniker": "Models\\Factory\\IssueFactory.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\IssueFactory.cs",
-              "RelativeToolTip": "Models\\Factory\\IssueFactory.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T07:21:42.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContractFactory.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\ContractFactory.cs",
-              "RelativeDocumentMoniker": "Models\\Factory\\ContractFactory.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\Factory\\ContractFactory.cs",
-              "RelativeToolTip": "Models\\Factory\\ContractFactory.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T20:44:06.147Z"
             }
           ]
         }

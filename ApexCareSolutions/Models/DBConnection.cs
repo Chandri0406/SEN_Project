@@ -13,7 +13,7 @@ namespace ApexCareSolutions.Models
         private ContractFactory contractFactory;
         private IssueFactory issueFactory;
 
-        public DatabaseConnection()
+        public DBConnection()
         {
             _connectionString = $"Host=localhost;Database=ApexCare_DB;Username=Tester;Password=5432;";
         }

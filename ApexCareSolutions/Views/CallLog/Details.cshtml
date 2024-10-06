@@ -1,0 +1,22 @@
+﻿@model ApexCareSolutions.Models.CallLog
+
+<h2>Call Log Details</h2>
+
+<div>
+    <h4>Call Log</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Call ID</dt>
+        <dd>@Model.CallID</dd>
+        <dt>Client ID</dt>
+        <dd>@Model.ClientID</dd>
+        <dt>Agent ID</dt>
+        <dd>@Model.AgentID</dd>
+        <dt>Start Time</dt>
+        <dd>@Model.StartTime</dd>
+        <dt>End Time</dt>
+        <dd>@Model.EndTime</dd>
+    </dl>
+    <a asp-action="Edit" asp-route-id="@Model.CallID" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>

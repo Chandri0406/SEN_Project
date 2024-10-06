@@ -62,7 +62,7 @@ namespace ApexCareSolutions.Models
             set { email = value; }
         }
 
-        public void LogIssue(IIssue issue)
+        public void ViewIssue(IIssue issue)
         {
             Console.WriteLine($"Handling issue ID: {issue.IssueID}, Priority: {issue.Priority}");
         }

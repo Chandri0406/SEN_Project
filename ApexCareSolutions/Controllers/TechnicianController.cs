@@ -1,10 +1,10 @@
-﻿using System.Web.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ApexCareSolutions.Controllers
+namespace ApexCareSolutions.Controller
 {
     public class TechnicianController : Controller
     {
-        public ActionResult Technician()
+        public IActionResult Index()
         {
             return View();
         }

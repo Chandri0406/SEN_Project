@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {}
+    "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {
+    "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+        "projectUniqueName": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
         "projectName": "ApexCareSolutions",
-        "projectPath": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
-        "packagesPath": "C:\\Users\\chanb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\obj\\",
+        "projectPath": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+        "packagesPath": "C:\\Users\\Super\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Super\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

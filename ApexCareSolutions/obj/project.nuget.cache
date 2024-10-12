@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Vjpr8R1qoAA=",
+  "dgSpecHash": "JS35Zr11lC0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\peter\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\peter\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

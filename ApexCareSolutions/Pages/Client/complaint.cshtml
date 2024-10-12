@@ -2,3 +2,24 @@
 @model ApexCareSolutions.Pages.Client.complaintModel
 @{
 }
+
+<div>
+    <form action="/" method="post">
+        <div>
+            <label asp-for = "complaint.IssueID">Issue ID:</label>
+            <input type="text" asp-for="complaint.IssueID" />
+        </div>
+
+        <div>
+            <label asp-for = "complaint.DateReported">Issue ID:</label>
+            <input type="date" asp-for="complaint.DateReported" />
+        </div>
+
+        <div>
+            <label asp-for="complaint.Description">Issue ID:</label>
+            <input type="text" asp-for="complaint.Description" />
+        </div>
+
+        <button type="submit">Send</button>
+        </form>
+</div>

@@ -1,4 +1,73 @@
 ﻿@page
 @model ApexCareSolutions.Pages.Client.contractHistoryModel
-@{
-}
+
+<div class="content">
+    <aside>
+        <h2>Profile</h2>
+        <p>Profile details</p>
+
+        <h2>Contracts</h2>
+        <p>Contract Details</p>
+        <p>Contract History</p>
+        <p>Manage Contract</p>
+
+        <h2>Issues</h2>
+        <p>Feedback Survey</p>
+        <p>Send a Complaint</p>
+
+        <button>Logout</button>
+    </aside>
+
+    <main>
+        <h2>Viewing Contract</h2>
+
+        <div class="form-group">
+            <label for="ContractId">Contract ID:</label>
+            <input type="text" asp-for="contract.ContractID" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="ClientId">Client ID:</label>
+            <input type="text" asp-for="contract.ClientID" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="StartDate">Start Date:</label>
+            <input type="date" asp-for="contract.StartDate" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="EndDate">End Date:</label>
+            <input type="date" asp-for="contract.EndDate" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="Status">Status:</label>
+            <select asp-for="contract.Status" class="form-control">
+                <option value="Active">Active</option>
+                <option value="Expired">Expired</option>
+                <option value="OnHold">On Hold</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Type">Type:</label>
+            <select asp-for="contract.Type" class="form-control">
+                <option value="Warranty">Warranty</option>
+                <option value="Private">Private</option>
+                <option value="Commercial">Commercial</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="Residency">Residency:</label>
+            <select asp-for="contract.Residency" class="form-control">
+                <option value="House">House</option>
+                <option value="Townhouse">Townhouse</option>
+                <option value="Apartment">Apartment</option>
+
+                <option value="Complex">Complex</option>
+            </select>
+        </div>
+    </main>
+</div>

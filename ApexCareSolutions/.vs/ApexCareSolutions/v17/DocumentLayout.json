@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\pages\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\pages\\client\\contracthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contracthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\pages\\client\\profileclient.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\profileclient.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\pages\\client\\contracthistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contracthistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,27 +75,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "profileClient.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Client\\profileClient.cshtml.cs",
-              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml.cs",
-              "RelativeToolTip": "Pages\\Client\\profileClient.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Title": "contractHistory.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Client\\contractHistory.cshtml.cs",
+              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml.cs",
+              "RelativeToolTip": "Pages\\Client\\contractHistory.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T15:20:11.274Z",
+              "WhenOpened": "2024-10-12T16:06:39.64Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "profileClient.cshtml",
-              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Client\\profileClient.cshtml",
-              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml",
-              "RelativeToolTip": "Pages\\Client\\profileClient.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
+              "Title": "contractHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\contractHistory.cshtml",
+              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml",
+              "RelativeToolTip": "Pages\\Client\\contractHistory.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T15:05:57.843Z",
+              "WhenOpened": "2024-10-12T16:06:36.988Z",
               "EditorCaption": ""
             },
             {
@@ -106,7 +106,7 @@
               "RelativeDocumentMoniker": "Models\\DBConnection.cs",
               "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
               "RelativeToolTip": "Models\\DBConnection.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswBkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBcAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T14:22:47.363Z",
               "EditorCaption": ""

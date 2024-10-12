@@ -6,3 +6,12 @@ C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cache
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cs
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.sourcelink.json
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.csproj.AssemblyReference.cache
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.AssemblyInfoInputs.cache
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.AssemblyInfo.cs
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.csproj.CoreCompileInputs.cache
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cache
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cs
+C:\Users\Super\Documents\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.sourcelink.json

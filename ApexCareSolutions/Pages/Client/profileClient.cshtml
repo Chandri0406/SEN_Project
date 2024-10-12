@@ -1,4 +1,44 @@
 ﻿@page
 @model ApexCareSolutions.Pages.Client.profileClientModel
-@{
-}
+
+<div class="content">
+    <aside>
+        <h2>Profile</h2>
+        <p>Profile details</p>
+
+        <h2>Contracts</h2>
+        <p>Contract Details</p>
+        <p>Contract History</p>
+        <p>Manage Contract</p>
+
+        <h2>Issues</h2>
+        <p>Feedback Survey</p>
+        <p>Send a Complaint</p>
+
+        <button>Logout</button>
+    </aside>
+
+    <main>
+        <form method="post">
+            <label>Username</label><br/>
+            <input type="text" asp-for="client.Username"/>
+
+            <label>FirstName</label><br />
+            <input type="text" asp-for="client.FirstName" />
+
+            <label>LastName</label><br />
+            <input type="text" asp-for="client.LastName" />
+
+            <label>Phone</label><br />
+            <input type="text" asp-for="client.Phone" />
+
+            <label>Email</label><br />
+            <input type="text" asp-for="client.Email" />
+
+            <label>Address</label><br />
+            <input type="text" asp-for="client.Address" />
+
+            <button type="submit">Edit Profile</button>
+        </form>
+    </main>
+</div>

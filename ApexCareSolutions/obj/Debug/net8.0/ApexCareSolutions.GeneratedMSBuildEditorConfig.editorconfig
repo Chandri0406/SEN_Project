@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/addIssue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcYWRkSXNzdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/assignIssue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcYXNzaWduSXNzdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/client&contract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcY2xpZW50JmNvbnRyYWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/profileAgent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRccHJvZmlsZUFnZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,12 +62,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XHByb2ZpbGVDbGllbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/createUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Privacy.cshtml]

@@ -1,17 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
 
 namespace ApexCareSolutions.Models
 {
     public class Technician
     {
-        // Fields
-        private int TechnicianID;
-        private string Username;
-        private string FirstName;
-        private string LastName;
-        private string Phone;
-        private string Email;
+        // Properties
+        public int TechnicianID {get ; set;}
+
+        public string Username{get ; set;}
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+        
+
+        public string Phone { get; set; }
+
+
+        public string Email { get; set; }
 
         // Constructor
         public Technician(int technicianID, string username, string firstName, string lastName, string phone, string email)
@@ -24,42 +32,7 @@ namespace ApexCareSolutions.Models
             Email = email;
         }
 
-        // Properties
-        public int TechnicianID
-        {
-            get { return technicianID; }
-            set { technicianID = value; }
-        }
-
-        public string Username
-        {
-            get { return username; }
-            set { username = value; }
-        }
-
-        public string FirstName
-        {
-            get { return firstName; }
-            set { firstName = value; }
-        }
-
-        public string LastName
-        {
-            get { return lastName; }
-            set { lastName = value; }
-        }
-
-        public string Phone
-        {
-            get { return phone; }
-            set { phone = value; }
-        }
-
-        public string Email
-        {
-            get { return email; }
-            set { email = value; }
-        }
+        
 
         public void ViewIssue(IIssue issue)
         {

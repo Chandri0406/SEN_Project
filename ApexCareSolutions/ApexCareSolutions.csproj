@@ -8,9 +8,13 @@
 
   <ItemGroup>
     <Compile Remove="Model\**" />
+    <Compile Remove="wwwroot\img\**" />
     <Content Remove="Model\**" />
+    <Content Remove="wwwroot\img\**" />
     <EmbeddedResource Remove="Model\**" />
+    <EmbeddedResource Remove="wwwroot\img\**" />
     <None Remove="Model\**" />
+    <None Remove="wwwroot\img\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,7 +23,10 @@
 
   <ItemGroup>
     <Folder Include="Services\" />
-    <Folder Include="wwwroot\img\icons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="8.0.4" />
   </ItemGroup>
 
 </Project>

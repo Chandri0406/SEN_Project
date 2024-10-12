@@ -1,0 +1,8 @@
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.AssemblyInfoInputs.cache
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.AssemblyInfo.cs
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.csproj.CoreCompileInputs.cache
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cache
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cs
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.sourcelink.json

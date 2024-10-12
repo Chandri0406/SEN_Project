@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApexCareSolutions.Models.Factory
+namespace ApexCareSolutions.Models
 {
     public interface IContract
     {
@@ -15,6 +15,6 @@ namespace ApexCareSolutions.Models.Factory
         string Status { get; }
 
     }
-   // IEnumerable<IContract> GetContractsByClientId(int clientId);
+    // IEnumerable<IContract> GetContractsByClientId(int clientId);
     //IEnumerable<IContract> GetOngoingContractsByClientId(int clientId);
 }

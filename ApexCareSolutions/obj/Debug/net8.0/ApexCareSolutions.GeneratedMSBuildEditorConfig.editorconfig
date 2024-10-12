@@ -18,6 +18,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/profileAgent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRccHJvZmlsZUFnZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/complaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGNvbXBsYWludC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/contractDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGNvbnRyYWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/contractHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGNvbnRyYWN0SGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGZlZWRiYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/manageContract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XG1hbmFnZUNvbnRyYWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/profileClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XHByb2ZpbGVDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,6 +60,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Technician/ongoingJobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5pY2lhblxvbmdvaW5nSm9icy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Technician/proileTechnician.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5pY2lhblxwcm9pbGVUZWNobmljaWFuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/chanb/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/_ViewImports.cshtml]

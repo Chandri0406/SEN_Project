@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ApexCareSolutions.Models.Factory
+namespace ApexCareSolutions.Models
 {
     public class ContractFactory
     {
@@ -13,13 +13,13 @@ namespace ApexCareSolutions.Models.Factory
             {
                 case "commercial":
                     return new CommercialContract();
-                break;
+                    break;
                 case "private":
                     return new PrivateContract();
-                break;
+                    break;
                 case "warranty":
                     return new WarrantyContract();
-                break;
+                    break;
                 default:
                     return null;
             }
@@ -27,15 +27,15 @@ namespace ApexCareSolutions.Models.Factory
 
         public string DetermineType(IContract c)
         {
-            if(c is CommercialContract ct1)
+            if (c is CommercialContract ct1)
             {
                 return ct1.Type;
             }
-            else if(c is PrivateContract ct2)
+            else if (c is PrivateContract ct2)
             {
                 return ct2.Type;
             }
-            else if(c is WarrantyContract ct3)
+            else if (c is WarrantyContract ct3)
             {
                 return ct3.Type;
             }

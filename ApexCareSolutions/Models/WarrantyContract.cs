@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ApexCareSolutions.Models.Factory
+namespace ApexCareSolutions.Models
 {
-    public class PrivateContract : IContract, IResidency
+    public class WarrantyContract : IContract, IResidency
     {
         public int ContractID { get; set; }
         public int ClientID { get; set; }
@@ -17,19 +17,19 @@ namespace ApexCareSolutions.Models.Factory
 
         public string Residency { get; set; }
 
-        public PrivateContract(int clientID, DateTime startDate, DateTime endDate, string status, string residency)
+        public WarrantyContract(int clientID, DateTime startDate, DateTime endDate, string status, string residency)
         {
             ClientID = clientID;
             StartDate = startDate;
             EndDate = endDate;
             Status = status;
-            Type = "Private";
+            Type = "Warranty";
             Residency = residency;
         }
 
-        public PrivateContract() 
+        public WarrantyContract()
         {
-            Type = "Private";
+            Type = "Warranty";
         }
     }
 }

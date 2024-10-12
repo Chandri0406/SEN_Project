@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using ApexCareSolutions.Models.Factory;
 using Npgsql;
 
 namespace ApexCareSolutions.Models

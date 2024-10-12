@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ApexCareSolutions.Models.Factory
+namespace ApexCareSolutions.Models
 {
     public class CommercialContract : IContract, IResidency
     {
@@ -27,7 +27,7 @@ namespace ApexCareSolutions.Models.Factory
             Residency = residency;
         }
 
-        public CommercialContract() 
+        public CommercialContract()
         {
             Type = "Commercial";
         }

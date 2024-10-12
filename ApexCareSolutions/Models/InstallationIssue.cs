@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ApexCareSolutions.Models.Factory
+namespace ApexCareSolutions.Models
 {
-    public class PowerTripIssue : IIssue
+    public class InstallationIssue : IIssue
     {
         public int IssueID { get; set; }
         public int ClientID { get; set; }
@@ -17,7 +17,7 @@ namespace ApexCareSolutions.Models.Factory
 
         public string Description { get; set; }
 
-        public PowerTripIssue(int clientID, int callID, string priority, string status, DateTime startDate, DateTime endDate)
+        public InstallationIssue(int clientID, int callID, string priority, string status, DateTime startDate, DateTime endDate)
         {
             ClientID = clientID;
             CallID = callID;
@@ -25,12 +25,12 @@ namespace ApexCareSolutions.Models.Factory
             Status = status;
             StartDate = startDate;
             EndDate = endDate;
-            Description = "Power Trip";
+            Description = "Installation Issue";
         }
 
-        public PowerTripIssue()
+        public InstallationIssue()
         {
-            Description = "Power Trip";
+            Description = "Installation Issue";
         }
     }
 }

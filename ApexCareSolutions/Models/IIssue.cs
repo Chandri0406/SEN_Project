@@ -11,6 +11,7 @@ namespace ApexCareSolutions.Models
         int IssueID { get; }
         int ClientID { get; }
         int CallID { get; }
+        string ContractID { get; }
         string Priority { get; }
         string Status { get; }
         DateTime StartDate { get; }

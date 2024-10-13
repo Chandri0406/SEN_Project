@@ -11,16 +11,18 @@ namespace ApexCareSolutions.Models
         public int ClientID { get; set; }
         public int CallID { get; set; }
         public string Priority { get; set; }
+        public string ContractID { get; set; }
         public string Status { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
 
         public string Description { get; set; }
 
-        public MalfunctionIssue(int clientID, int callID, string priority, string status, DateTime startDate, DateTime endDate)
+        public MalfunctionIssue(int clientID, int callID, string contractID, string priority, string status, DateTime startDate, DateTime endDate)
         {
             ClientID = clientID;
             CallID = callID;
+            ContractID = contractID;
             Priority = priority;
             Status = status;
             StartDate = startDate;

@@ -23,7 +23,6 @@ C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApexCareSolutions.props
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApexCareSolutions.props
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\scopedcss\bundle\ApexCareSolutions.styles.css
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\scopedcss\projectbundle\ApexCareSolutions.bundle.scp.css
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCare.76154131.Up2Date
@@ -227,3 +226,5 @@ C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\bin\Debug
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\bin\Debug\net8.0\bundleconfig.json
+C:\Users\chanb\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css

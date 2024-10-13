@@ -2,3 +2,44 @@
 @model ApexCareSolutions.Pages.Technician.proileTechnicianModel
 @{
 }
+
+<h2>Technician Details</h2>
+
+<!---->
+<form method="post">
+    <!--TechnicianID-->
+    <div>
+        <label for="techID">Technician ID</label>
+        <input type="text" id="technID" name="technicianID" value="@Models.Technician.TechnicianID"/>
+    </div>
+
+    <!--Username-->
+    <div>
+        <label for="UName">Username</label>
+        <input type="text" id="UName" name="UserName" value="@Models.Technician.Username"/>
+    </div>
+
+    <!--FirstName-->
+    <div>
+        <label for="FName">FirstName</label>
+        <input type="text" id="FName" name="firstName" value="@Models.Technician.FirstName" />
+    </div>
+
+    <!--LastName-->
+    <div>
+        <label for="LName">LastName</label>
+        <input type="text" id="LName" name="LastName" value="@Models.Technician.LastName" />
+    </div>
+
+    <!--Phone-->
+    <div>
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" name="Phone" value="@Models.Technician.Phone" />
+    </div>
+
+    <!--Email-->
+    <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="Email" value="@Models.Technician.Email" />
+    </div>
+</form>

@@ -37,6 +37,7 @@ namespace ApexCareSolutions.Pages.Client
             var newEmail = client.Email;
             var newAddress = client.Address;
 
+            //testing post method
             return Content($"{newUsername}; {newFirstName}; {newLastName}; {newPhone}; {newEmail}; {newAddress}");
         }
     }

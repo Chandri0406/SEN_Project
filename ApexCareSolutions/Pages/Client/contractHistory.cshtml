@@ -1,26 +1,18 @@
 ﻿@page
 @model ApexCareSolutions.Pages.Client.contractHistoryModel
 
-<div class="content">
-    <aside>
-        <h2>Profile</h2>
-        <p>Profile details</p>
-
-        <h2>Contracts</h2>
-        <p>Contract Details</p>
-        <p>Contract History</p>
-        <p>Manage Contract</p>
-
-        <h2>Issues</h2>
-        <p>Feedback Survey</p>
-        <p>Send a Complaint</p>
-
-        <button>Logout</button>
-    </aside>
-
+<div>
     <main>
         <h2>Viewing Contract</h2>
 
+        <select id="contractDropdown" class="form-control">
+            <option value="all">All Contracts</option>
+            @foreach (var contract in Model.contracts)
+            {
+                <option value="@contract.ContractID">@contract.ContractID</option>
+            }
+        </select>
+        <section class="contract-card">
         <div class="form-group">
             <label for="ContractId">Contract ID:</label>
             <input type="text" asp-for="contract.ContractID" class="form-control" />
@@ -69,5 +61,6 @@
                 <option value="Complex">Complex</option>
             </select>
         </div>
+        </section>
     </main>
 </div>

@@ -12,6 +12,7 @@ namespace ApexCareSolutions.Pages.Client
 
         public void TestData()
         {
+            client = new Clients();
             client.Username = "AJones777";
             client.FirstName = "Alex";
             client.LastName = "Jones";

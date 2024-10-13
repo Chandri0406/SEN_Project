@@ -13,6 +13,7 @@ namespace ApexCareSolutions.Pages.Client
 
         public void TestData()
         {
+            client = new Clients();
             client.ClientID = 11;
             contract = new PrivateContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(10), "active", "apartment");
         }

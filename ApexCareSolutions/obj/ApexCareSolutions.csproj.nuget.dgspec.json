@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
         "projectName": "ApexCareSolutions",
-        "projectPath": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

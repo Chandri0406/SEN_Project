@@ -2,3 +2,56 @@
 @model ApexCareSolutions.Pages.createUserModel
 @{
 }
+<div>
+    <form action="/" method="post">
+        <div>
+        <label asp-for="clients.FirstName" >FirstName: </label>
+        <input type="text" asp-for="clients.FirstName" />
+
+        </div>
+
+        <div>
+            <label asp-for="clients.LastName">LastName: </label>
+            <input type="text" asp-for="clients.LastName" />
+
+        </div>
+
+        <div>
+            <label asp-for="clients.Phone">Phone: </label>
+            <input type="text" asp-for="clients.Phone" />
+
+        </div>
+
+        <div>
+            <label asp-for="clients.Email"> Email:</label>
+            <input type="email" asp-for="clients.Email"/>
+
+        </div>
+
+        <div>
+            <label asp-for="clients.Email"> Confirm Email</label>
+            <input type="email" asp-for="clients.Email" />
+
+        </div>
+
+        <div>
+            <label asp-for="user.Username">Username </label>
+            <input type="text" asp-for="clients.Username" />
+
+        </div>
+
+        <div>
+            <label asp-for="user.Password">Password </label>
+            <input type="password" asp-for="user.Password" />
+
+        </div>
+
+        <div>
+            <label asp-for="user.Password">Confirm Password </label>
+            <input type="password" asp-for="user.Password" />
+
+        </div>
+    
+        <button type="submit">Sign Up</button>
+    </form>
+</div>

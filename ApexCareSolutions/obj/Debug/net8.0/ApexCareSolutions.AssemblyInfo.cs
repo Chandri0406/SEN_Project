@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApexCareSolutions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+977b4f12908c36931e4f3e545bc95b3a3a56165b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bfcb955e4bdbc999873a58910cfb73a2933d60d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApexCareSolutions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApexCareSolutions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

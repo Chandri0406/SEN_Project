@@ -2,3 +2,62 @@
 @model ApexCareSolutions.Pages.Technician.ongoingJobsModel
 @{
 }
+
+<h2>Job Assignment</h2>
+
+<!--Client Username & IssueID-->
+<div style="display: flex; justify-content: space-between;">
+    <div>
+        <input type="text" name="clientusername" value="@Models.Clients"/>
+    </div>
+
+    <div style="text-align: right">
+        <input type="text" value="@Models.IIssue" readonly />
+    </div>
+</div>
+
+<form method="post">
+
+    <!--Technician Selector-->
+    <div>
+        <label for="technician">Technician Name, Surname</label>
+        <select id="technician" name="technicianID">
+            <optin value="">-- Select Technician --</optin>
+            @foreach (var technician in Models.Technician)
+            {
+                <option value="@technician.technicianID">@technician.firstname</option>
+            }
+        </select>
+    </div>
+    <!--StartDate Selector-->
+    <div>
+        <label for="startdate">Start Date</label>
+        <input type="date" id="startdate" name="startdate"/>
+    </div>
+    <!--EndDate Selector-->
+    <div>
+        <label for="enddate">Deadline</label>
+        <input type="date" id="enddate" name="enddate"/>
+    </div>
+    <!--Status Selector-->
+    <div>
+        <label for="status">Status</label>
+        <selet id="status" name="statusdropdown">
+            <option value="">-- Select Status --</option>
+            <option value="1">Active</option>
+            <option value="2">Inactive</option>
+            <option value="3">On Hold</option>
+        </selet>
+    </div>
+    <!--Job Type Selector-->
+    <div>
+        <label for="jobtype">Job Type</label>
+        <select id=" jobtype" name="jobtypedropdown">
+            <option value="">-- Select Job Type --</option>
+            <option value="1">Malfunction Issue</option>
+            <option value="2">Issue1</option>
+            <option value="3">Issue2</option>
+            <option value="4">Issue3</option>
+        </select>
+    </div>
+</form>

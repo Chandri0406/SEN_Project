@@ -2,3 +2,33 @@
 @model ApexCareSolutions.Pages.loginModel
 @{
 }
+
+<div>
+    <form>
+        <div>
+            <label asp-for="user.Username">Username: </label>
+            <input asp-for="user.Username"/>
+        </div>
+
+        <div>
+            <label asp-for="user.Password">Password: </label>
+            <input asp-for="user.Password"/>
+        </div>
+
+        <div>
+            <label asp-for="user.Role">Role: </label>
+            <select asp-for="user.Role">
+                <option value=""></option>
+                <option value="Client">Client</option>
+                <option value="Agent">Service Agent</option>
+                <option value="Technician">Technician</option>
+            </select>
+        </div>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <div>
+        Not a user? <a href=""><u>Create an account</u></a>
+    </div>
+</div>

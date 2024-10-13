@@ -5,13 +5,6 @@ namespace ApexCareSolutions.Models
 {
     public class Technician
     {
-        // Fields
-        private int TechnicianID;
-        private string Username;
-        private string FirstName;
-        private string LastName;
-        private string Phone;
-        private string Email;
 
         // Constructor
         public Technician(int technicianID, string username, string firstName, string lastName, string phone, string email)
@@ -27,38 +20,38 @@ namespace ApexCareSolutions.Models
         // Properties
         public int TechnicianID
         {
-            get { return technicianID; }
-            set { technicianID = value; }
+            get;
+            set;
         }
 
         public string Username
         {
-            get { return username; }
-            set { username = value; }
+            get;
+            set;
         }
 
         public string FirstName
         {
-            get { return firstName; }
-            set { firstName = value; }
+            get;
+            set;
         }
 
         public string LastName
         {
-            get { return lastName; }
-            set { lastName = value; }
+            get;
+            set;
         }
 
         public string Phone
         {
-            get { return phone; }
-            set { phone = value; }
+            get;
+            set;
         }
 
         public string Email
         {
-            get { return email; }
-            set { email = value; }
+            get;
+            set;
         }
 
         public void ViewIssue(IIssue issue)

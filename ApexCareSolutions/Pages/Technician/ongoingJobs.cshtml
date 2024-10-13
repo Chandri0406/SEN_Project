@@ -8,11 +8,11 @@
 <!--Client Username & IssueID-->
 <div style="display: flex; justify-content: space-between;">
     <div>
-        <input type="text" name="clientusername" value="@Models.Clients"/>
+        <input type="text" id="ClientUN" name="clientUsername" value="@Models.Clients"/>
     </div>
 
     <div style="text-align: right">
-        <input type="text" value="@Models.IIssue" readonly />
+        <input type="number" id="issueID" name="IssueID" value="@Models.IIssue" readonly />
     </div>
 </div>
 
@@ -21,7 +21,7 @@
     <!--Technician Selector-->
     <div>
         <label for="technician">Technician Name, Surname</label>
-        <select id="technician" name="technicianID">
+        <select id="technician" name="SelectedTechnicianID">
             <optin value="">-- Select Technician --</optin>
             @foreach (var technician in Models.Technician)
             {
@@ -32,12 +32,12 @@
     <!--StartDate Selector-->
     <div>
         <label for="startdate">Start Date</label>
-        <input type="date" id="startdate" name="startdate"/>
+        <input type="date" id="startdate" name="startDate"/>
     </div>
     <!--EndDate Selector-->
     <div>
         <label for="enddate">Deadline</label>
-        <input type="date" id="enddate" name="enddate"/>
+        <input type="date" id="enddate" name="endDate"/>
     </div>
     <!--Status Selector-->
     <div>

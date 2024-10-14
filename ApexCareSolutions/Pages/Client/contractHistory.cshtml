@@ -1,16 +1,20 @@
 ﻿@page
 @model ApexCareSolutions.Pages.Client.contractHistoryModel
+@functions{
+    
+}
 
 <div>
     <main>
         <h2>Viewing Contract</h2>
 
-        <select id="contractDropdown" class="form-control">
-            <option value="all">All Contracts</option>
+        <select asp-for="selectedID" onchange="@Model.ContractID_Changed(Model.selectedID)">
+            @* <option value="all">All Contracts</option> *@
             @foreach (var contract in Model.contracts)
             {
                 <option value="@contract.ContractID">@contract.ContractID</option>
             }
+            
         </select><br /><br />
 
         <section class="contract-card">
@@ -37,7 +41,7 @@
 
         <div class="form-group">
                 <label>Status:</label>
-                <input type="date" asp-for="contract.Status" readonly /><br /><br />
+                <input type="text" asp-for="contract.Status" readonly /><br /><br />
         </div>
 
         <div class="form-group">

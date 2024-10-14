@@ -7,7 +7,7 @@ namespace ApexCareSolutions.Models
 {
     public class CommercialContract : IContract, IResidency
     {
-        public int ContractID { get; set; }
+        public string ContractID { get; set; }
         public int ClientID { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }

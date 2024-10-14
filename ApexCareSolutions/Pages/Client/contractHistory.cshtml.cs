@@ -18,13 +18,13 @@ namespace ApexCareSolutions.Pages.Client
         {
             client = new Clients();
             client.ClientID = 11;
-            contract = new PrivateContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(10).Date, "active", "apartment") { ContractID = 3};
+            contract = new PrivateContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(10).Date, "active", "apartment") { ContractID = "000003"};
             Type = "warranty";
             Residency = "house";
             contracts = new List<IContract>
             {
-                new WarrantyContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(5).Date, "active", "house"){ContractID = 1},
-                new CommercialContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(15).Date, "on hold", "house"){ContractID = 2},
+                new WarrantyContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(5).Date, "active", "house"){ContractID = "000001"},
+                new CommercialContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(15).Date, "on hold", "house"){ContractID = "000002"},
                 contract
             };
         }

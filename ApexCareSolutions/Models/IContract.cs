@@ -8,7 +8,7 @@ namespace ApexCareSolutions.Models
 {
     public interface IContract
     {
-        int ContractID { get; }
+        string ContractID { get; }
         int ClientID { get; }
         DateTime StartDate { get; }
         DateTime EndDate { get; }

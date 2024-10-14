@@ -1,14 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\",
+  "WorkspaceRootPath": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\pages\\client\\contracthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\agent\\client\u0026contract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\agent\\client\u0026contract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\agent\\assignissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\agent\\assignissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\agent\\addissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\agent\\addissue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\agent\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\agent\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\client\\managecontract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\managecontract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\client\\contractdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contractdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\client\\contracthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contracthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\super\\documents\\sen_project\\apexcaresolutions\\pages\\client\\contracthistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contracthistory.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\client\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\client\\complaint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\complaint.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\technician\\ongoingjobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\technician\\ongoingjobs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\technician\\proiletechnician.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\technician\\proiletechnician.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\agent\\profileagent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\agent\\profileagent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,27 +74,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -47,10 +95,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
@@ -69,30 +113,213 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "contractHistory.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Client\\contractHistory.cshtml.cs",
-              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml.cs",
-              "RelativeToolTip": "Pages\\Client\\contractHistory.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T16:06:39.64Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "contractHistory.cshtml",
-              "DocumentMoniker": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Client\\contractHistory.cshtml",
-              "ToolTip": "C:\\Users\\Super\\Documents\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml",
-              "RelativeToolTip": "Pages\\Client\\contractHistory.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA3AAAAAAAAAA==",
+              "Title": "createUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml",
+              "RelativeDocumentMoniker": "Pages\\createUser.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml",
+              "RelativeToolTip": "Pages\\createUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T16:06:36.988Z",
+              "WhenOpened": "2024-10-12T14:54:31.998Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\login.cshtml",
+              "RelativeDocumentMoniker": "Pages\\login.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\login.cshtml",
+              "RelativeToolTip": "Pages\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T14:54:19.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "client\u0026contract.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\client\u0026contract.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Agent\\client\u0026contract.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\client\u0026contract.cshtml",
+              "RelativeToolTip": "Pages\\Agent\\client\u0026contract.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T14:53:47.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "assignIssue.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\assignIssue.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Agent\\assignIssue.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\assignIssue.cshtml",
+              "RelativeToolTip": "Pages\\Agent\\assignIssue.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T14:53:18.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "addIssue.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\addIssue.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Agent\\addIssue.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\addIssue.cshtml",
+              "RelativeToolTip": "Pages\\Agent\\addIssue.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T14:53:02.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\dashboard.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Agent\\dashboard.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\dashboard.cshtml",
+              "RelativeToolTip": "Pages\\Agent\\dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T14:52:46.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "manageContract.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\manageContract.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml",
+              "RelativeToolTip": "Pages\\Client\\manageContract.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:10:23.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "contractDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\contractDetails.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml",
+              "RelativeToolTip": "Pages\\Client\\contractDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:10:07.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "contractHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\contractHistory.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractHistory.cshtml",
+              "RelativeToolTip": "Pages\\Client\\contractHistory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:09:55.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "feedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\feedback.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\feedback.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\feedback.cshtml",
+              "RelativeToolTip": "Pages\\Client\\feedback.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:09:31.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "complaint.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\complaint.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\complaint.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\complaint.cshtml",
+              "RelativeToolTip": "Pages\\Client\\complaint.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:09:19.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ongoingJobs.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Technician\\ongoingJobs.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Technician\\ongoingJobs.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Technician\\ongoingJobs.cshtml",
+              "RelativeToolTip": "Pages\\Technician\\ongoingJobs.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:08:38.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "proileTechnician.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Technician\\proileTechnician.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Technician\\proileTechnician.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Technician\\proileTechnician.cshtml",
+              "RelativeToolTip": "Pages\\Technician\\proileTechnician.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T10:57:26.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "profileAgent.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\profileAgent.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Agent\\profileAgent.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Agent\\profileAgent.cshtml",
+              "RelativeToolTip": "Pages\\Agent\\profileAgent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T10:56:34.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "profileClient.cshtml",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\profileClient.cshtml",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml",
+              "RelativeToolTip": "Pages\\Client\\profileClient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T10:56:10.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:05:45.16Z"
             }
           ]
         }

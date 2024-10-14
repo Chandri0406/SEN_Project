@@ -11,55 +11,43 @@
             {
                 <option value="@contract.ContractID">@contract.ContractID</option>
             }
-        </select>
+        </select><br /><br />
+
         <section class="contract-card">
+
         <div class="form-group">
-            <label for="ContractId">Contract ID:</label>
-            <input type="text" asp-for="contract.ContractID" class="form-control" />
+            <label>Contract ID:</label>
+                <input type="text" asp-for="contract.ContractID" readonly /><br /><br />
         </div>
 
         <div class="form-group">
             <label for="ClientId">Client ID:</label>
-            <input type="text" asp-for="contract.ClientID" class="form-control" />
+                <input type="text" asp-for="contract.ClientID" readonly /><br /><br />
         </div>
 
         <div class="form-group">
-            <label for="StartDate">Start Date:</label>
-            <input type="date" asp-for="contract.StartDate" class="form-control" />
+            <label>Start Date:</label>
+                <input type="date" asp-for="contract.StartDate" readonly /><br /><br />
         </div>
 
         <div class="form-group">
-            <label for="EndDate">End Date:</label>
-            <input type="date" asp-for="contract.EndDate" class="form-control" />
+            <label>End Date:</label>
+                <input type="date" asp-for="contract.EndDate" readonly /><br /><br />
         </div>
 
         <div class="form-group">
-            <label for="Status">Status:</label>
-            <select asp-for="contract.Status" class="form-control">
-                <option value="Active">Active</option>
-                <option value="Expired">Expired</option>
-                <option value="OnHold">On Hold</option>
-            </select>
+                <label>Status:</label>
+                <input type="date" asp-for="contract.Status" readonly /><br /><br />
         </div>
 
         <div class="form-group">
-            <label for="Type">Type:</label>
-            <select asp-for="contract.Type" class="form-control">
-                <option value="Warranty">Warranty</option>
-                <option value="Private">Private</option>
-                <option value="Commercial">Commercial</option>
-            </select>
+                <label>Type:</label>
+                <input type="text" asp-for="Type" /><br /><br />
         </div>
 
         <div class="form-group">
-            <label for="Residency">Residency:</label>
-            <select asp-for="contract.Residency" class="form-control">
-                <option value="House">House</option>
-                <option value="Townhouse">Townhouse</option>
-                <option value="Apartment">Apartment</option>
-
-                <option value="Complex">Complex</option>
-            </select>
+            <label>Residency:</label>
+                <input type="text" asp-for="Residency" readonly/>
         </div>
         </section>
     </main>

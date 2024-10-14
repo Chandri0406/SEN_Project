@@ -44,5 +44,25 @@ namespace ApexCareSolutions.Models
                 return null;
             }
         }
+
+        public string DetermineResidency(IContract c)
+        {
+            if (c is CommercialContract ct1)
+            {
+                return ct1.Residency;
+            }
+            else if (c is PrivateContract ct2)
+            {
+                return ct2.Residency;
+            }
+            else if (c is WarrantyContract ct3)
+            {
+                return ct3.Residency;
+            }
+            else
+            {
+                return null;
+            }
+        }
     }
 }

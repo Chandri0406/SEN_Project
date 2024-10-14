@@ -8,8 +8,10 @@ namespace ApexCareSolutions.Pages.Client
     {
         [BindProperty]
         public Clients client { get; set; }
-        public PrivateContract contract { get; set; }
-        private ContractFactory cf { get; set; }
+        public IContract contract { get; set; }
+        public string Type;
+        public String Residency;
+        private ContractFactory CF { get; set; }
         public List<IContract> contracts { get; set; }
 
         public void TestData()
@@ -17,6 +19,8 @@ namespace ApexCareSolutions.Pages.Client
             client = new Clients();
             client.ClientID = 11;
             contract = new PrivateContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(10).Date, "active", "apartment") { ContractID = 3};
+            Type = "warranty";
+            Residency = "house";
             contracts = new List<IContract>
             {
                 new WarrantyContract(client.ClientID, DateTime.Now.Date, DateTime.Now.AddDays(5).Date, "active", "house"){ContractID = 1},

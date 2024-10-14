@@ -8,7 +8,7 @@ namespace ApexCareSolutions.Models
 {
     public interface IIssue
     {
-        int IssueID { get; }
+        string IssueID { get; }
         int ClientID { get; }
         int CallID { get; }
         string ContractID { get; }

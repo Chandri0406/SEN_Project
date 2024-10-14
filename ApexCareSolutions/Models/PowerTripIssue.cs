@@ -7,7 +7,7 @@ namespace ApexCareSolutions.Models
 {
     public class PowerTripIssue : IIssue
     {
-        public int IssueID { get; set; }
+        public string IssueID { get; set; }
         public int ClientID { get; set; }
         public int CallID { get; set; }
         public string ContractID { get; set; }

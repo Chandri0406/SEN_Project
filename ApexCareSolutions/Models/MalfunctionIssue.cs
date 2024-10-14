@@ -7,7 +7,7 @@ namespace ApexCareSolutions.Models
 {
     public class MalfunctionIssue : IIssue
     {
-        public int IssueID { get; set; }
+        public string IssueID { get; set; }
         public int ClientID { get; set; }
         public int CallID { get; set; }
         public string Priority { get; set; }

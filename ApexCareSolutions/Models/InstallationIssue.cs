@@ -27,7 +27,7 @@ namespace ApexCareSolutions.Models
             Status = status;
             StartDate = startDate;
             EndDate = endDate;
-            Description = "Installation Issue";
+            Description = "Installation";
         }
 
         public InstallationIssue()

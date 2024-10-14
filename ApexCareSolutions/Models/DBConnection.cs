@@ -150,5 +150,43 @@ namespace ApexCareSolutions.Models
             return contracts;
         }
 
+        public void addIssue(IIssue issue)
+        {
+            issueFactory = new IssueFactory();
+            try
+            {
+                
+                using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+                {
+                    
+                    connection.Open();
+
+                    
+                    using (NpgsqlCommand command = new NpgsqlCommand("sp_addissue", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+
+                       
+                        command.Parameters.AddWithValue("p_clientid", NpgsqlDbType.Integer, issue.ClientID);
+                        command.Parameters.AddWithValue("p_contractid", NpgsqlDbType.Text, issue.ContractID);
+                        command.Parameters.AddWithValue("p_callid", NpgsqlDbType.Integer, issue.CallID);
+                        command.Parameters.AddWithValue("p_priority", NpgsqlDbType.Text, issue.Priority);
+                        command.Parameters.AddWithValue("p_status", NpgsqlDbType.Text, issue.Status);
+                        command.Parameters.AddWithValue("p_startdate", NpgsqlDbType.Date, issue.StartDate);
+                        command.Parameters.AddWithValue("p_startdate", NpgsqlDbType.Date, issue.StartDate);
+                        command.Parameters.AddWithValue("p_description", NpgsqlDbType.Text, issueFactory.DetermineType(issue));
+
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                
+                Console.WriteLine("Error adding complaint: " + ex.Message);
+                throw;
+            }
+        }
+
     }
 }

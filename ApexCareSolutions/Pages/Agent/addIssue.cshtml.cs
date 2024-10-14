@@ -13,7 +13,7 @@ namespace ApexCareSolutions.Pages.Agent
 
         public void TestData()
         {
-            issue = new MalfunctionIssue(11, 1, "000001", "low", "open", DateTime.Now.Date, DateTime.Now.AddDays(10)) { IssueID = "2"};
+            issue = new MalfunctionIssue(13, 17, "000001", "low", "open", DateTime.Now.Date, DateTime.Now.AddDays(10)) { IssueID = "000002"};
             Description = "Malfunction";
         }
 
@@ -24,9 +24,10 @@ namespace ApexCareSolutions.Pages.Agent
             return Page();
         }
 
-        public IActionResult OnPost()
+        public void OnPost()
         {
-            return Content($"{issue.IssueID}; {issue.ClientID}; {issue.CallID}; {issue.ContractID}; {Description}");
+            DBConnection db = new DBConnection();
+            db.addIssue(issue);
         }
     }
 }

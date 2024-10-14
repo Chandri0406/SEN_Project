@@ -16,12 +16,10 @@ html {
 
 body {
     background-color: #C7C7BF;
-    margin-bottom: 60px;
 }
 
 .headerBar {
     background-color: #14498B;
-    padding: 15px;
     color: white;
 }
 
@@ -43,6 +41,7 @@ body {
     background-color: #E7E7E6;
     font-size: 12px;
     color: #02050A;
+    float:left;
 }
 
 .navHead {
@@ -54,20 +53,27 @@ body {
     border: 1px solid #F6BF41;
 }
 
-.nav_items {
+.nav_items a {
     color: #02050A;
     font-size: 11px;
 }
 
 .logout_btn {
-    color: #;
+    color: #14498B;
+    font-size: 20px;
     margin-top: 20px;
     display: block;
 }
 
 .mainContent {
     background-color: #E7E7E6;
-    flex-grow: 1;
-    padding: 30px;
     color: #02050A;
+}
+
+#editProfile {
+    background-color: #ffcc00; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    float: right;
 }

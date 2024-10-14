@@ -14,11 +14,11 @@
     </header>
 
     <!-- Main Layout Container -->
-    <div style="display: flex; height: calc(100vh - 60px);">
+    <div>
         <!-- Sidebar -->
         <aside class="navBox">
             <nav>
-                <h3 class = "navHead">Profile</h3>
+                <h3 class="navHead">Profile</h3>
                 <hr class="navLine">
                 <ul>
                     <li class="nav_items" ><a asp-for="/Technician/profileTechnician">Profile details</a></li>
@@ -30,20 +30,22 @@
                     <li class="nav_items"><a asp-for="/Technician/ongoingJobs">Ongoing Job Assignments</a></li>
                 </ul>
 
-                <button class="logout_btn"><a href="/logout" style="color: #0044a6; margin-top: 20px; display: block;">Logout</a></button>
+                <button class="logout_btn"><a href="/logout">Logout</a></button>
             </nav>
         </aside>
+        </div>
 
-        <!-- Main Content Area -->
-        <main class="mainContents">
-            @RenderBody()
+        <div>
+            <!-- Main Content Area -->
+            <main class="mainContents">
+                @RenderBody()
 
-            <!-- Edit Profile Button -->
-            <button style="background-color: #ffcc00; border: none; padding: 10px 20px; cursor: pointer; float: right;">
-                Edit Profile
-            </button>
-        </main>
-    </div>
+                <!-- Edit Profile Button -->
+                <button id="editProfile">
+                    Edit Profile
+                </button>
+            </main>
+        </div>
 
     @RenderSection("Scripts", required: false)
 </body>

@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Models",
-    "\\Pages"
+    "\\Pages",
+    "\\Pages\\Client"
   ],
   "SelectedNode": "\\ApexCareSolutions.sln",
   "PreviewInSolutionExplorer": false

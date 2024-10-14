@@ -11,7 +11,7 @@ namespace ApexCareSolutions.Models
         public string Username { get; set; }
 
         // Private attributes
-        private string Password { get; set; }
+        public string Password { get; set; }
 
         public string Role { get; set; }
 
@@ -21,6 +21,11 @@ namespace ApexCareSolutions.Models
             this.Username = username;
             this.Password = password; // Password hashing
             this.Role = role;
+        }
+
+        public User()
+        {
+            
         }
 
         // Public method to authenticate user

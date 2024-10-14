@@ -13,7 +13,7 @@ namespace ApexCareSolutions.Pages.Agent
 
         public void TestData()
         {
-            issue = new MalfunctionIssue(11, 1, "000001", "low", "open", DateTime.Now.Date, DateTime.Now.AddDays(10)) { IssueID = 2};
+            issue = new MalfunctionIssue(11, 1, "000001", "low", "open", DateTime.Now.Date, DateTime.Now.AddDays(10)) { IssueID = "2"};
             Description = "Malfunction";
         }
 

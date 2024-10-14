@@ -9,18 +9,24 @@ namespace ApexCareSolutions.Models
     {
         public int ComplaintID { get; set; }
         public int ClientID { get; set; }
-        public int IssueID { get; set; }
+        public string IssueID { get; set; }
         public DateTime DateReported { get; set; }
         public DateTime? DateResolved { get; set; } // Nullable if not yet resolved
         public string Description { get; set; }
 
         // Constructor
-        public Complaint(int clientID, int issueID, string description, DateTime dateReported)
+        public Complaint(int clientID, string issueID, string description, DateTime dateReported, DateTime dateResolved)
         {
             ClientID = clientID;
             IssueID = issueID;
             Description = description;
             DateReported = dateReported;
+            DateResolved = dateResolved;
+        }
+
+        public Complaint()
+        {
+            
         }
 
         // Optional: Validation logic
@@ -28,5 +34,12 @@ namespace ApexCareSolutions.Models
         {
             return DateResolved.HasValue;
         }
+
+        public override string ToString()
+        {
+            return $"{ClientID}; {IssueID}; {Description}; {DateReported}; {DateResolved}";
+        }
+
+
     }
 }

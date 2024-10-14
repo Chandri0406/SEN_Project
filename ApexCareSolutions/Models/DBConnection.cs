@@ -16,7 +16,7 @@ namespace ApexCareSolutions.Models
 
         public DBConnection()
         {
-            _connectionString = $"Host=localhost;Database=ApexCare_DB;Username=Tester;Password=5432;";
+            _connectionString = $"Host=localhost;Database=ApexCareDB;Username=Tester;Password=5432;";
         }
 
         public NpgsqlConnection GetConnection()
@@ -24,7 +24,7 @@ namespace ApexCareSolutions.Models
             return new NpgsqlConnection(_connectionString);
         }
 
-        public void addComplaint(Complaint complaint)
+        /* public void addComplaint(Complaint complaint)
         {
             // Add complaint to database
             using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
@@ -47,6 +47,41 @@ namespace ApexCareSolutions.Models
                 command.ExecuteNonQuery();
             }
 
+        }
+        */
+        public void addComplaint(Complaint complaint)
+        {
+            try
+            {
+                // Add complaint to the database
+                using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+                {
+                    // Open the connection
+                    connection.Open();
+
+                    // Define the stored procedure command
+                    using (NpgsqlCommand command = new NpgsqlCommand("sp_addcomplaint", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+
+                        // Add parameters
+                        command.Parameters.AddWithValue("p_clientid", NpgsqlDbType.Integer, complaint.ClientID);
+                        command.Parameters.AddWithValue("p_issueid", NpgsqlDbType.Text, complaint.IssueID);
+                        command.Parameters.AddWithValue("p_datereported", NpgsqlDbType.Date, complaint.DateReported);
+                        command.Parameters.AddWithValue("p_dateresolved", NpgsqlDbType.Date, complaint.DateResolved);
+                        command.Parameters.AddWithValue("p_description", NpgsqlDbType.Text, complaint.Description);
+
+                        // Execute the stored procedure
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log or handle the error appropriately
+                Console.WriteLine("Error adding complaint: " + ex.Message);
+                throw;
+            }
         }
 
         public void addFeedback(Feedback feedback) 

@@ -1,0 +1,107 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ApexCareSolutions
+build_property.RootNamespace = ApexCareSolutions
+build_property.ProjectDir = C:\Users\peter\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\peter\OneDrive\Documents\GitHub\SEN_Project\ApexCareSolutions
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/addIssue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcYWRkSXNzdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/assignIssue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcYXNzaWduSXNzdWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/client&contract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcY2xpZW50JmNvbnRyYWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRcZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Agent/profileAgent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWdlbnRccHJvZmlsZUFnZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/complaint.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGNvbXBsYWludC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/contractDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGNvbnRyYWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/contractHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGNvbnRyYWN0SGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XGZlZWRiYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/manageContract.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XG1hbmFnZUNvbnRyYWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Client/profileClient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XHByb2ZpbGVDbGllbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/createUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY3JlYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Technician/ongoingJobs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5pY2lhblxvbmdvaW5nSm9icy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Technician/proileTechnician.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVjaG5pY2lhblxwcm9pbGVUZWNobmljaWFuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/peter/OneDrive/Documents/GitHub/SEN_Project/ApexCareSolutions/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-drr9w9c5u9

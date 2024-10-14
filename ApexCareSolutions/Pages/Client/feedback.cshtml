@@ -2,3 +2,29 @@
 @model ApexCareSolutions.Pages.Client.feedbackModel
 @{
 }
+
+<div>
+    <form action="/" method="post">
+        <div>
+            <label asp-for = "feedback.IssueID">Issue ID:</label>
+            <input type="text" asp-for="feedback.IssueID" />
+        </div>
+
+        <div>
+            <label asp-for = "feedback.Rating">Rating:</label>
+            <input type="date" asp-for="feedback.Rating" />
+        </div>
+
+        <div>
+            <label asp-for="feedback.DateProvided">Date:</label>
+            <input type="text" asp-for="feedback.DateProvided" />
+        </div>
+
+         <div>
+            <label asp-for="feedback.Comments">Comments:</label>
+            <input type="text" asp-for="feedback.Comments" />
+        </div>
+
+        <button type="submit">Submit</button>
+        </form>
+</div>

@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <!-- Top Bar -->
+    <header class="headerBar">
+        <img src="~/images/logo.png" alt="Logo" id="logo">
+        <span class="headTitle">Hello, @ViewData["Username"]</span>
+    </header>
+
+    <!-- Main Layout Container -->
+    <div style="display: flex; height: calc(100vh - 60px);">
+        <!--  Sidebar -->
+        <aside class="navBox">
+            <nav>
+                <h3 class="navHead">Profile</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-page="/Client/profileClient">Profile details</a></li>
+                </ul>
+
+                <h3 class="navHead">Contracts</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a  asp-page="/Client/contractDetails">Contract Details</a></li>
+                    <li class="nav_items"><a asp-page="/Client/contractHistory">Contract History</a></li>
+                    <li class="nav_items"><a asp-page="/Client/manageContract">Manage Contract</a></li>
+                </ul>
+
+                <h3 class="navHead">Issues</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class=""><a asp-page="/Client/feedback">Feedback Survey</a></li>
+                    <li class=""><a asp-page="/Client/complaint">Send a Complaint</a></li>
+                </ul>
+
+                <a href="/logout" style="color: #0044a6; margin-top: 20px; display: block;">Logout</a>
+            </nav>
+        </aside>
+    </div>
+    <div>
+        <!-- Main Content Area -->
+        <aside>
+            <main style="flex-grow: 1; padding: 30px; background-color: white;">
+                @RenderBody()
+
+                <!-- Edit Profile Button -->
+                <button style="background-color: #ffcc00; border: none; padding: 10px 20px; cursor: pointer; float: right;">
+                    Edit Profile
+                </button>
+            </main>
+        </aside>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

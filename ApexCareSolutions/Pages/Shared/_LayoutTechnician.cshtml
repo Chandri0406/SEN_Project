@@ -8,34 +8,34 @@
 </head>
 <body>
     <!-- Top Bar -->
-    <header style="background-color: #0044a6; padding: 15px; color: white;">
-        <img src="~/images/logo.png" alt="Logo" style="width: 50px; vertical-align: middle;">
-        <span style="font-size: 1.5rem; font-weight: bold; margin-left: 15px;">Hello, @ViewData["Username"]</span>
+    <header class="headerBar">
+        <img src="~/images/logo.png" alt="Logo" id="logo">
+        <span class="headTitle">Hello, @ViewData["Username"]</span>
     </header>
 
     <!-- Main Layout Container -->
     <div style="display: flex; height: calc(100vh - 60px);">
         <!-- Sidebar -->
-        <aside style="width: 250px; background-color: #f2f2f2; padding: 20px;">
+        <aside class="navBox">
             <nav>
-                <h3 class = "navHead"style="color: #000; margin-bottom: 0;">Profile</h3>
-                <hr style="border: 1px solid #ffcc00;">
+                <h3 class = "navHead">Profile</h3>
+                <hr class="navLine">
                 <ul>
-                    <li><a href="#">Profile details</a></li>
+                    <li class="nav_items" ><a asp-for="/Technician/profileTechnician">Profile details</a></li>
                 </ul>
 
-                <h3 style="color: #000;">Jobs</h3>
-                <hr style="border: 1px solid #ffcc00;">
+                <h3 class="navHead">Jobs</h3>
+                <hr class="navLine">
                 <ul>
-                    <li><a href="#">Ongoing Job Assignments</a></li>
+                    <li class="nav_items"><a asp-for="/Technician/ongoingJobs">Ongoing Job Assignments</a></li>
                 </ul>
 
-                <a href="/logout" style="color: #0044a6; margin-top: 20px; display: block;">Logout</a>
+                <button class="logout_btn"><a href="/logout" style="color: #0044a6; margin-top: 20px; display: block;">Logout</a></button>
             </nav>
         </aside>
 
         <!-- Main Content Area -->
-        <main style="flex-grow: 1; padding: 30px; background-color: white;">
+        <main class="mainContents">
             @RenderBody()
 
             <!-- Edit Profile Button -->

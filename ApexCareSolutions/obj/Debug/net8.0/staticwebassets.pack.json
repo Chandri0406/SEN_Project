@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\images\\NameLogo.png",
+      "PackagePath": "staticwebassets\\images\\NameLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\images\\logoBig.png",
+      "PackagePath": "staticwebassets\\images\\logoBig.png"
+    },
+    {
+      "Id": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\images\\logoMini.png",
+      "PackagePath": "staticwebassets\\images\\logoMini.png"
+    },
+    {
       "Id": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

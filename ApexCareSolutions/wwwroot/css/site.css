@@ -13,13 +13,61 @@ html {
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
+
 body {
     background-color: #C7C7BF;
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
-.navBar {
+.headerBar {
+    background-color: #14498B;
+    padding: 15px;
+    color: white;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.headTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.navBox {
+    width: 250px;  
+    padding: 20px;
     background-color: #E7E7E6;
     font-size: 12px;
+    color: #02050A;
+}
+
+.navHead {
+    color: #02050A;
+    margin-bottom: 0;
+}
+
+.navLine {
+    border: 1px solid #F6BF41;
+}
+
+.nav_items {
+    color: #02050A;
+    font-size: 11px;
+}
+
+.logout_btn {
+    color: #;
+    margin-top: 20px;
+    display: block;
+}
+
+.mainContent {
+    background-color: #E7E7E6;
+    flex-grow: 1;
+    padding: 30px;
     color: #02050A;
 }

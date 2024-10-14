@@ -68,5 +68,50 @@ namespace ApexCareSolutions.Models
             }
         }
         */
+        public ServiceAgent GetAgentById(string agentID)
+        {
+            ServiceAgent serviceAgent = null;
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+            {
+                NpgsqlCommand command = new NpgsqlCommand("sp_getagents", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                NpgsqlParameter agentIdParam = new NpgsqlParameter("agent_id", NpgsqlDbType.Text);
+                agentIdParam.Value = agentID;
+                command.Parameters.Add(agentIdParam);
+
+                try
+                {
+                    connection.Open();
+                    using (NpgsqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            serviceAgent = new ServiceAgent
+                            {
+                                AgentID = reader.GetString("agentID"),
+                                Username = reader.GetString("username"),
+                                FirstName = reader.GetString("firstname"),
+                                LastName = reader.GetString("lastname"),
+                                Phone = reader.GetString("phone"),
+                                Email = reader.GetString("email")
+                            };
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+            }
+            return serviceAgent;
+        }
+
+
+
     }
 }
+
+
+

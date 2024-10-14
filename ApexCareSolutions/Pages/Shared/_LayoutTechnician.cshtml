@@ -16,28 +16,26 @@
     <!-- Main Layout Container -->
     <div>
         <!-- Sidebar -->
-        <aside class="navBox">
             <nav>
                 <h3 class="navHead">Profile</h3>
                 <hr class="navLine">
                 <ul>
-                    <li class="nav_items" ><a asp-for="/Technician/profileTechnician">Profile details</a></li>
+                    <li class="nav_items"><a asp-area="" asp-for="/Technician/profileTechnician">Profile details</a></li>
                 </ul>
 
                 <h3 class="navHead">Jobs</h3>
                 <hr class="navLine">
                 <ul>
-                    <li class="nav_items"><a asp-for="/Technician/ongoingJobs">Ongoing Job Assignments</a></li>
+                    <li class="nav_items"><a asp-area="" asp-for="/Technician/ongoingJobs">Ongoing Job Assignments</a></li>
                 </ul>
 
-                <button class="logout_btn"><a href="/logout">Logout</a></button>
+                <button class="logout_btn"><a href="/login">Logout</a></button>
             </nav>
-        </aside>
         </div>
 
-        <div>
+    <div class="mainContents">
             <!-- Main Content Area -->
-            <main class="mainContents">
+            <main>
                 @RenderBody()
 
                 <!-- Edit Profile Button -->

@@ -7,13 +7,20 @@ namespace ApexCareSolutions.Models
 {
     public class User
     {
+   
         // Public attributes
         public string Username { get; set; }
 
-        // Private attributes
+        // Private attributes, chnaged to public so that it could be accessed in the createUser View
         public string Password { get; set; }
 
         public string Role { get; set; }
+
+        //Parameterless constructor 
+        public User() 
+        { 
+
+        }
 
         // Public constructor
         public User(string username, string password, string role)
@@ -22,6 +29,7 @@ namespace ApexCareSolutions.Models
             this.Password = password; // Password hashing
             this.Role = role;
         }
+        
 
         // Public method to authenticate user
         public bool AuthenticateUser(string username, string password)

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\user\\source\\repos\\chandri0406\\sen_project\\apexcaresolutions\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\user\\source\\repos\\chandri0406\\sen_project\\apexcaresolutions\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\user\\source\\repos\\chandri0406\\sen_project\\apexcaresolutions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\user\\source\\repos\\chandri0406\\sen_project\\apexcaresolutions\\pages\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -18,19 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 15,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "createUser.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\createUser.cshtml.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml.cs*",
-              "RelativeToolTip": "Pages\\createUser.cshtml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Title": "Clients.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\Clients.cs",
+              "RelativeDocumentMoniker": "Models\\Clients.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\Clients.cs",
+              "RelativeToolTip": "Models\\Clients.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T10:31:13.181Z",
+              "WhenOpened": "2024-10-14T16:22:40.041Z",
               "EditorCaption": ""
             },
             {
@@ -63,10 +79,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -87,13 +99,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:56:11.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Models\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
+              "RelativeToolTip": "Models\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:28:03.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "createUser.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\createUser.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml.cs",
+              "RelativeToolTip": "Pages\\createUser.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T10:31:13.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "createUser.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml",
               "RelativeDocumentMoniker": "Pages\\createUser.cshtml",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml*",
-              "RelativeToolTip": "Pages\\createUser.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Chandri0406\\SEN_Project\\ApexCareSolutions\\Pages\\createUser.cshtml",
+              "RelativeToolTip": "Pages\\createUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-14T10:27:42.188Z",
               "EditorCaption": ""

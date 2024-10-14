@@ -1,20 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Data;
+using System.Text;
 using Npgsql;
+using NpgsqlTypes;
+//using System.Security.Cryptography;  // Add this for SHA256
 
 namespace ApexCareSolutions.Models
 {
     public class DBConnection
     {
         private readonly string _connectionString;
-        private ContractFactory contractFactory;
-        private IssueFactory issueFactory;
 
         public DBConnection()
         {
-            _connectionString = $"Host=localhost;Database=ApexCare_DB;Username=Tester;Password=5432;";
+            _connectionString = $"Host=localhost;Database=ApexCareDB;Username=Tester;Password=5432;";
         }
 
         public NpgsqlConnection GetConnection()
@@ -22,5 +21,52 @@ namespace ApexCareSolutions.Models
             return new NpgsqlConnection(_connectionString);
         }
 
+        public void InsertUser(User user, Clients clients)
+        {
+            try
+            {
+                using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+                {
+                    connection.Open();
+                    using (NpgsqlCommand command = new NpgsqlCommand("sp_insertclient", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+
+                        // Hash the password before storing (Enable this later)
+                        // string hashedPassword = HashPassword(user.Password);  
+
+                        // Add parameters
+                        command.Parameters.AddWithValue("p_firstname", NpgsqlDbType.Text, clients.FirstName);
+                        command.Parameters.AddWithValue("p_lastname", NpgsqlDbType.Text, clients.LastName);
+                        command.Parameters.AddWithValue("p_phone", NpgsqlDbType.Text, clients.Phone);
+                        command.Parameters.AddWithValue("p_email", NpgsqlDbType.Text, clients.Email);
+                        command.Parameters.AddWithValue("p_address", NpgsqlDbType.Text, clients.Address);
+                        command.Parameters.AddWithValue("p_username", NpgsqlDbType.Text, clients.Username);
+
+                        // Use hashedPassword instead of user.Password when enabling hashing
+                        command.Parameters.AddWithValue("p_password", NpgsqlDbType.Text, user.Password);
+
+                        // Execute the stored procedure
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error adding user: " + e.Message);
+            }
+        }
+
+        // Commented-out hashing method for now
+        /*
+        private string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return Convert.ToBase64String(bytes);
+            }
+        }
+        */
     }
 }

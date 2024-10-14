@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B655uaNG6qxUch5UD/5UeWtD3UA7dNTL9Zv0JiARCZM=",
+  "Hash": "vZkdKpxKvb2GNh4ayAdY8yANUuaWRyjGwkIiUI+RfgM=",
   "Source": "ApexCareSolutions",
   "BasePath": "_content/ApexCareSolutions",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApexCareSolutions.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\css\\loginCSS.css",
+      "SourceId": "ApexCareSolutions",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\",
+      "BasePath": "_content/ApexCareSolutions",
+      "RelativePath": "css/loginCSS.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\loginCSS.css"
     },
     {
       "Identity": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\css\\site.css",

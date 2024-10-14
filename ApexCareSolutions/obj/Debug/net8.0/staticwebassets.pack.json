@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\ApexCareSolutions.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\css\\loginCSS.css",
+      "PackagePath": "staticwebassets\\css\\loginCSS.css"
+    },
+    {
       "Id": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

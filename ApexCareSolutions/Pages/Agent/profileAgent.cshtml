@@ -1,4 +1,42 @@
-﻿@page
+﻿﻿@page
 @model ApexCareSolutions.Pages.Agent.profileAgentModel
 @{
+    Layout = "/Shared/_LayoutAgent.cshtml";
 }
+
+<div>
+    <form action="/" method="get">
+        <div>
+            <label asp-for="serviceAgent.AgentID">Agent ID:</label>
+            <input type="text" asp-for="serviceAgent.AgentID" />
+        </div>
+
+        <div>
+            <label asp-for="serviceAgent.Username">Username:</label>
+            <input type="text" asp-for="serviceAgent.Username" />
+        </div>
+
+        <div>
+            <label asp-for="serviceAgent.FirstName">First Name:</label>
+            <input type="text" asp-for="serviceAgent.FirstName" />
+        </div>
+
+        <div>
+            <label asp-for="serviceAgent.LastName">Last Name:</label>
+            <input type="text" asp-for="serviceAgent.LastName" />
+        </div>
+
+        <div>
+            <label asp-for="serviceAgent.Phone">Phone:</label>
+            <input type="text" asp-for="serviceAgent.Phone" />
+        </div>
+
+        <div>
+            <label asp-for="serviceAgent.Email">Email:</label>
+            <input type="email" asp-for="serviceAgent.Email" />
+        </div>
+
+        
+
+    </form>
+</div>

@@ -45,6 +45,7 @@ body {
     font-size: 12px;
     color: #02050A;
     float: left;
+    margin-left: 15px;
 }
 
 .navHead {
@@ -71,6 +72,8 @@ body {
 .mainContent {
     background-color: #E7E7E6;
     color: #02050A;
+    padding: 25px;
+    margin: 15px;
 }
 
 #editProfile {

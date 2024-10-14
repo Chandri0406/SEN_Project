@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "U3KyIep4pVM=",
+  "dgSpecHash": "mTbsXhQMnbs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+  "projectFilePath": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\chanb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\chanb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\chanb\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512"
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Daniel\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512"
   ],
   "logs": []
 }

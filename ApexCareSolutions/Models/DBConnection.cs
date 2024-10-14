@@ -14,7 +14,7 @@ namespace ApexCareSolutions.Models
 
         public DBConnection()
         {
-            _connectionString = $"Host=localhost;Database=ApexCare_DB;Username=Tester;Password=5432;";
+            _connectionString = $"Host=localhost;Database=ApexCareDB;Username=Tester;Password=5432;";
         }
 
         public NpgsqlConnection GetConnection()

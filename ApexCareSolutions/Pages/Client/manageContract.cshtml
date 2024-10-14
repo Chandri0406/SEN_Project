@@ -1,4 +1,52 @@
 ﻿@page
-@model ApexCareSolutions.Pages.Client.manageContractModel
+@using ApexCareSolutions.Models
+@model IEnumerable<CommercialContract>
 @{
 }
+MyViewModel
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>Contract ID:</th>
+                <th>Contract Status</th>
+                <th>Contract Type</th>
+                <th>Residency</th>
+                <th>Start date:</th>
+                <th>End Date:</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var CommercialContract in Model)
+            {
+                <tr>
+                    <td>@CommercialContract.ContractID</td>
+                    <td>@CommercialContract.Status</td>
+                    <td>@CommercialContract.Type</td>
+                    <td>@CommercialContract.Residency</td>
+                    <td>@CommercialContract.StartDate</td>
+                    <td>@CommercialContract.EndDate</td>
+                </tr>
+                <tr>
+                    <td>@CommercialContract.ContractID</td>
+                    <td>@CommercialContract.Status</td>
+                    <td>@CommercialContract.Type</td>
+                    <td>@CommercialContract.Residency</td>
+                    <td>@CommercialContract.StartDate</td>
+                    <td>@CommercialContract.EndDate</td>
+                </tr>
+                <tr>
+                    <td>@CommercialContract.ContractID</td>
+                    <td>@CommercialContract.Status</td>
+                    <td>@CommercialContract.Type</td>
+                    <td>@CommercialContract.Residency</td>
+                    <td>@CommercialContract.StartDate</td>
+                    <td>@CommercialContract.EndDate</td>
+                 </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

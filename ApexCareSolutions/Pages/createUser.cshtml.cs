@@ -12,38 +12,55 @@ namespace ApexCareSolutions.Pages
         [BindProperty]
         public Clients clients { get; set; } = new Clients();
 
-        // Properties to hold confirm values from the form
+        // Properties for confirm fields from the form
         [BindProperty]
         public string ConfirmEmail { get; set; }
 
         [BindProperty]
         public string ConfirmPassword { get; set; }
 
-        // Error message to display on the form
-        public string ErrorMessage { get; set; }
+        // Error messages to display on the form
+        public string PasswordErrorMessage { get; set; }
+        public string EmailErrorMessage { get; set; }
 
         public IActionResult OnPost()
         {
+            bool isValid = true;
+
             // Validate password confirmation
             if (user.Password != ConfirmPassword)
             {
-                ErrorMessage = "Passwords do not match!";
-                return Page(); // Re-render the page with the error message
+                PasswordErrorMessage = "Passwords do not match!";
+                isValid = false;
             }
 
             // Validate email confirmation
             if (clients.Email != ConfirmEmail)
             {
-                ErrorMessage = "Emails do not match!";
-                return Page(); // Re-render the page with the error message
+                EmailErrorMessage = "Emails do not match!";
+                isValid = false;
             }
 
-            // If validation passes, insert the user into the database
-            DBConnection db = new DBConnection();
-            db.InsertUser(user, clients);
+            // If any validation failed, re-render the page with error messages
+            if (!isValid)
+            {
+                return Page();
+            }
 
-            // Redirect to login page after successful signup
-            return RedirectToPage("/login");
+            // Insert user into the database if validation passes
+            try
+            {
+                DBConnection db = new DBConnection();
+                db.InsertUser(user, clients);
+
+                // Redirect to login page after successful signup
+                return RedirectToPage("/login");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "An error occurred while creating the user.");
+                return Page();
+            }
         }
     }
 }

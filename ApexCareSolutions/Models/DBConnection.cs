@@ -3,7 +3,7 @@ using System.Data;
 using System.Text;
 using Npgsql;
 using NpgsqlTypes;
-//using System.Security.Cryptography;  // Add this for SHA256
+using System.Security.Cryptography;  // Add this for SHA256
 
 namespace ApexCareSolutions.Models
 {
@@ -32,19 +32,17 @@ namespace ApexCareSolutions.Models
                     {
                         command.CommandType = CommandType.StoredProcedure;
 
-                        // Hash the password before storing (Enable this later)
-                        // string hashedPassword = HashPassword(user.Password);  
+                        //Hash the password before storing (Enable this later)
+                        string hashedPassword = HashPassword(user.Password);  
 
                         // Add parameters
+                        command.Parameters.AddWithValue("p_username", NpgsqlDbType.Text, user.Username);
+                        command.Parameters.AddWithValue("p_password", NpgsqlDbType.Text, user.Password);
                         command.Parameters.AddWithValue("p_firstname", NpgsqlDbType.Text, clients.FirstName);
                         command.Parameters.AddWithValue("p_lastname", NpgsqlDbType.Text, clients.LastName);
                         command.Parameters.AddWithValue("p_phone", NpgsqlDbType.Text, clients.Phone);
                         command.Parameters.AddWithValue("p_email", NpgsqlDbType.Text, clients.Email);
                         command.Parameters.AddWithValue("p_address", NpgsqlDbType.Text, clients.Address);
-                        command.Parameters.AddWithValue("p_username", NpgsqlDbType.Text, clients.Username);
-
-                        // Use hashedPassword instead of user.Password when enabling hashing
-                        command.Parameters.AddWithValue("p_password", NpgsqlDbType.Text, user.Password);
 
                         // Execute the stored procedure
                         command.ExecuteNonQuery();
@@ -58,7 +56,7 @@ namespace ApexCareSolutions.Models
         }
 
         // Commented-out hashing method for now
-        /*
+        
         private string HashPassword(string password)
         {
             using (var sha256 = SHA256.Create())
@@ -67,7 +65,7 @@ namespace ApexCareSolutions.Models
                 return Convert.ToBase64String(bytes);
             }
         }
-        */
+        
         public ServiceAgent GetAgentById(string agentID)
         {
             ServiceAgent serviceAgent = null;

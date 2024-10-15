@@ -1,8 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Npgsql;
+using System.Data;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ApexCareSolutions.Models
 {
@@ -14,7 +16,7 @@ namespace ApexCareSolutions.Models
 
         public DBConnection()
         {
-            _connectionString = $"Host=localhost;Database=ApexCare_DB;Username=Tester;Password=5432;";
+            _connectionString = $"Host=localhost;Database=ApexCareDB;Username=Tester;Password=5432;";
         }
 
         public NpgsqlConnection GetConnection()
@@ -23,25 +25,26 @@ namespace ApexCareSolutions.Models
         }
 
         //Using Stored Procedure for Getting Technicians
-        public List<profileTechnicianModel> GetTechnicians()
+        public Technician GetTechnicians(string TechnicianID)
         {
-            var technicians = new List<profileTechnicianModel>();
+            Technician technician = null;
 
             using (var conn = GetConnection()) 
             {
                 conn.Open();
 
                 //Calling the Procedure
-                using (var command = new NpgsqlCommand("sp_gettchniciandetails(IN p_technicianid text)", conn))
+                using (var command = new NpgsqlCommand("sp_gettchniciandetails", conn))
                 {
                     command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("p_technicianid", TechnicianID);
 
                     //Executing Stored Procedure
                     using (var reader = command.ExecuteReader()) 
                     { 
                         while (reader.Read())
                         {
-                            var technician = new profileTechnicianModel
+                            technician = new Technician
                             {
                                 TechnicianID = reader.GetString(0),
                                 Username = reader.GetString(1),
@@ -50,12 +53,11 @@ namespace ApexCareSolutions.Models
                                 Phone = reader.IsDBNull(4) ? null : reader.GetString(3), //Handles NULL VALUES
                                 Email = reader.IsDBNull(5) ? null : reader.GetString(4),
                             };
-                            technicians.Add(technician);
                         }
                     }
                 }
             }
-            return technicians;
+            return technician;
         }
     }
 }

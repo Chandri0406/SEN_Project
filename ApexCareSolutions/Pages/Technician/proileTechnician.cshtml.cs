@@ -1,30 +1,33 @@
+using ApexCareSolutions.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ApexCareSolutions.Models;
+using System.Threading.Tasks;
 
 namespace ApexCareSolutions.Pages.Technician
 {
     public class proileTechnicianModel : PageModel
     {
-        [BindProperty]
-        public string technicianID { get; set; }
+        private readonly DBConnection dbConnection;
 
-        [BindProperty]
-        public string UserName { get; set; }
+        public proileTechnicianModel Technician { get; set; }
 
-        [BindProperty]
-        public string firstName { get; set; }
-
-        [BindProperty]
-        public string lastName { get; set; }
-
-        [BindProperty]
-        public string Phone { get; set; }
-
-        [BindProperty]
-        public string Email { get; set; }
-
-        public void OnGet()
+        /*  Still figuring out why GetTechnicians() isn't working. Chat says use this but nothing
+        public ProfileTechnicianModel(DBConnection dbConnection)
         {
+            this.dbConnection = dbConnection;
+        }
+        */
+
+        public async Task<IActionResult> OnGetAsync(string TechnicianID)
+        {
+            Technician = dbConnection.GetTechnicians(); //No clue what GetTechnicians() is still an Error
+
+            if (Technician == null )
+            {
+                return NotFound();
+            }
+            return Page();
         }
     }
 }

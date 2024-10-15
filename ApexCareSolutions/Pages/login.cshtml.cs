@@ -1,6 +1,8 @@
 using ApexCareSolutions.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ApexCareSolutions.Pages
 {
@@ -16,10 +18,12 @@ namespace ApexCareSolutions.Pages
         [BindProperty]
         public User User { get; set; } // This is the login form user
 
-        public string ReturnUrl { get; set; }
+        public string ReturnUrl { get; set; } // URL to return to after login
 
-        public async Task<IActionResult> OnPostAsync(string returnUrl = null)
+        public async Task<IActionResult> OnPost(string returnUrl = null)
         {
+            ReturnUrl = returnUrl; // Store return URL for later use
+
             if (ModelState.IsValid)
             {
                 // Fetch the full user details by username
@@ -27,7 +31,7 @@ namespace ApexCareSolutions.Pages
 
                 if (userDetails != null)
                 {
-                    // Password check (in a real-world scenario, you should hash passwords!)
+                    // Password check (ensure passwords are hashed in production)
                     if (User.Password == userDetails.Password)
                     {
                         // Debug output
@@ -37,13 +41,14 @@ namespace ApexCareSolutions.Pages
                         switch (userDetails.Role)
                         {
                             case "Agent":
-                                return RedirectToPage("/Agent/profileAgent");
+                                return RedirectToPage("/Agent/profileAgent", new { returnUrl });
 
                             case "Client":
-                                return RedirectToPage("/Client/profileClient");
+                                Response.Redirect("/Client/profileClient.cshtml");
+                                break;
 
                             case "Technician":
-                                return RedirectToPage("/Technician/profileTechnician");
+                                return RedirectToPage("/Technician/profileTechnician", new { returnUrl });
 
                             default:
                                 ModelState.AddModelError(string.Empty, "Unknown role.");
@@ -70,6 +75,5 @@ namespace ApexCareSolutions.Pages
             // Redisplay the form if something failed
             return Page();
         }
-
     }
 }

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\wwwroot\\css\\logincss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:wwwroot\\css\\logincss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,8 +15,12 @@
       "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\shared\\_layoutlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\wwwroot\\css\\logincss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:wwwroot\\css\\logincss.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\chanb\\onedrive\\documents\\github\\sen_project\\apexcaresolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T08:23:50.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "loginCSS.css",
               "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\wwwroot\\css\\loginCSS.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\loginCSS.css",
@@ -64,39 +64,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "_LayoutLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Shared\\_LayoutLogin.cshtml",
               "RelativeDocumentMoniker": "Pages\\Shared\\_LayoutLogin.cshtml",
               "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\Shared\\_LayoutLogin.cshtml",
               "RelativeToolTip": "Pages\\Shared\\_LayoutLogin.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T08:20:14.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\login.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\login.cshtml.cs",
               "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\login.cshtml.cs",
               "RelativeToolTip": "Pages\\login.cshtml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC4AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T08:19:40.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "login.cshtml",
               "DocumentMoniker": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\login.cshtml",
               "RelativeDocumentMoniker": "Pages\\login.cshtml",
               "ToolTip": "C:\\Users\\chanb\\OneDrive\\Documents\\GitHub\\SEN_Project\\ApexCareSolutions\\Pages\\login.cshtml",
               "RelativeToolTip": "Pages\\login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T08:19:39.694Z",
               "EditorCaption": ""

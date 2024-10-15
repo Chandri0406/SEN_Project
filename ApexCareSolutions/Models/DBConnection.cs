@@ -54,8 +54,6 @@ namespace ApexCareSolutions.Models
                 Console.WriteLine("Error adding user: " + e.Message);
             }
         }
-
-        // Commented-out hashing method for now
         
         private string HashPassword(string password)
         {
@@ -66,7 +64,7 @@ namespace ApexCareSolutions.Models
             }
         }
         
-        public ServiceAgent GetAgentById(string agentID)
+       /* public ServiceAgent GetAgentById(string agentID)
         {
             ServiceAgent serviceAgent = null;
 
@@ -106,7 +104,7 @@ namespace ApexCareSolutions.Models
             return serviceAgent;
         }
 
-
+        */
 
     }
 }

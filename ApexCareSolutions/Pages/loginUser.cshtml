@@ -1,0 +1,43 @@
+﻿@page
+@model ApexCareSolutions.Pages.loginUserModel
+@{
+    Layout = "~Pages/Shared/_LayoutLogin.cshtml";
+}
+
+<div id="loginBody">
+    <h2 id="lgLabel">Login</h2>
+
+    <form method="post">
+        @Html.AntiForgeryToken()
+        <div class="fields">
+            <label asp-for="user.Username">Username:</label>
+            <input asp-for="user.Username" />
+        </div>
+
+        <div class="fields">
+            <label asp-for="user.Password">Password:</label>
+            <input asp-for="user.Password" type="password" />
+        </div>
+
+        <div class="fields">
+            @Html.ValidationMessageFor(model => model.user.Username)
+            @Html.ValidationMessageFor(model => model.user.Password)
+        </div>
+
+        <div class="fields">
+            <label asp-for="user.Role">Role:</label>
+            <select asp-for="user.Role">
+                <option value=""></option>
+                <option value="Client">Client</option>
+                <option value="Agent">Service Agent</option>
+                <option value="Technician">Technician</option>
+            </select>
+        </div>
+
+        <button id="loginBtn" type="submit">Login</button>
+    </form>
+
+    <div>
+        Not a user? <a asp-page="/createUser"><u>Create an account</u></a>
+    </div>
+</div>

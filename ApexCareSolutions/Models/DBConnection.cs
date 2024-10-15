@@ -188,5 +188,39 @@ namespace ApexCareSolutions.Models
             }
         }
 
+        public void InsertUser(User user, Clients clients)
+        {
+            try
+            {
+                using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+                {
+                    connection.Open();
+                    using (NpgsqlCommand command = new NpgsqlCommand("sp_insertclient", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+
+                        // Hash the password before storing (Enable this later)
+                        // string hashedPassword = HashPassword(user.Password);  
+
+                        // Add parameters
+                        command.Parameters.AddWithValue("p_username", NpgsqlDbType.Text, user.Username);
+                        command.Parameters.AddWithValue("p_password", NpgsqlDbType.Text, user.Password);
+                        command.Parameters.AddWithValue("p_firstname", NpgsqlDbType.Text, clients.FirstName);
+                        command.Parameters.AddWithValue("p_lastname", NpgsqlDbType.Text, clients.LastName);
+                        command.Parameters.AddWithValue("p_phone", NpgsqlDbType.Text, clients.Phone);
+                        command.Parameters.AddWithValue("p_email", NpgsqlDbType.Text, clients.Email);
+                        command.Parameters.AddWithValue("p_address", NpgsqlDbType.Text, clients.Address);
+
+                        // Execute the stored procedure
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error adding user: " + e.Message);
+            }
+        }
+
     }
 }

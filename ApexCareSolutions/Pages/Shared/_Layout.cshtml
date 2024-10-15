@@ -40,20 +40,13 @@
                     <li class="nav_items"><a asp-area="" asp-page="/Client/complaint">Send a Complaint</a></li>
                 </ul>
 
-                <a href="/logout" style="color: #0044a6; margin-top: 20px; display: block;">Logout</a>
+            <a asp-page="/login" class="logout_btn">Logout</a>
             </nav>
     </div>
-    <div>
         <!-- Main Content Area -->
             <main>
                 @RenderBody()
-
-                <!-- Edit Profile Button -->
-                <button id="editProfile">
-                    Edit Profile
-                </button>
             </main>
-    </div>
 
     @RenderSection("Scripts", required: false)
 </body>

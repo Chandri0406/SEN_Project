@@ -1,7 +1,4 @@
-﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-html {
+﻿html {
     font-size: 14px;
     position: relative;
     min-height: 100%;
@@ -19,11 +16,20 @@ html {
 
 body {
     background-color: #C7C7BF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.fields {
 }
 
 .headerBar {
     background-color: #14498B;
     color: white;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -40,12 +46,16 @@ body {
 
 .navBox {
     width: 250px;
+    background-color: #E7E7E6;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1; /* Makes the main content take up the remaining space */
     padding: 20px;
     background-color: #E7E7E6;
-    font-size: 12px;
-    color: #02050A;
-    float: left;
-    margin-left: 15px;
+    border: 1px solid black;
 }
 
 .navHead {
@@ -59,7 +69,12 @@ body {
 
 .nav_items a {
     color: #02050A;
-    font-size: 11px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav_items a:hover {
+    background-color: #14498B;
 }
 
 .logout_btn {
@@ -67,13 +82,13 @@ body {
     font-size: 20px;
     margin-top: 20px;
     display: block;
+    align-self: center;
 }
 
 .mainContent {
     background-color: #E7E7E6;
+    border: 1px solid black;
     color: #02050A;
-    padding: 25px;
-    margin: 15px;
 }
 
 #editProfile {

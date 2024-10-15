@@ -16,6 +16,9 @@ html {
 
 body {
     background-color: #C7C7BF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .fields {
@@ -25,6 +28,8 @@ body {
     background-color: #14498B;
     color: white;
     padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #logo {
@@ -40,12 +45,17 @@ body {
 }
 
 .navBox {
-    width: 250px;  
+    width: 250px;
+    background-color: #E7E7E6;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1; /* Makes the main content take up the remaining space */
     padding: 20px;
     background-color: #E7E7E6;
-    font-size: 12px;
-    color: #02050A;
-    float:left;
+    border: 1px solid black;
 }
 
 .navHead {
@@ -59,7 +69,12 @@ body {
 
 .nav_items a {
     color: #02050A;
-    font-size: 11px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav_items a:hover {
+    background-color: #14498B;
 }
 
 .logout_btn {
@@ -67,6 +82,7 @@ body {
     font-size: 20px;
     margin-top: 20px;
     display: block;
+    align-self: center;
 }
 
 .mainContent {

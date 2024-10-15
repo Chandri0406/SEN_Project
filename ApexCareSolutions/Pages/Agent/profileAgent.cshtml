@@ -1,12 +1,13 @@
 ﻿﻿@page
 @model ApexCareSolutions.Pages.Agent.profileAgentModel
 @{
-    Layout = "/Shared/_LayoutAgent.cshtml";
+    Layout = "~/Pages/Shared/_LayoutAgent.cshtml";
+    ViewData["Title"] = "Profile Details";
 }
 
-<div>
+<div class="mainContents">
     <form action="/" method="get">
-        <div>
+        <div class="">
             <label asp-for="serviceAgent.AgentID">Agent ID:</label>
             <input type="text" asp-for="serviceAgent.AgentID" />
         </div>

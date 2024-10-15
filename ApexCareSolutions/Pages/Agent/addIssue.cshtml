@@ -2,12 +2,11 @@
 @model ApexCareSolutions.Pages.Agent.addIssueModel
 @using ApexCareSolutions.Models;
 @{
-    Layout = "/Shared/_LayoutAgent.cshtml";
+    Layout = "~/Pages/Shared/_LayoutAgent.cshtml";
+    ViewData["Title"] = "Add/Report Issue";
 }
 
-
-
-<div>
+<div class="main_content">
     <main>
         <form method="post">
             <label>Client ID:</label>

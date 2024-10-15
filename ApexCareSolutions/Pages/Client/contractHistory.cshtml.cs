@@ -12,7 +12,7 @@ namespace ApexCareSolutions.Pages.Client
         public IContract contract { get; set; }
         public string Type;
         public String Residency;
-        private ContractFactory CF { get; set; }
+        public ContractFactory CF { get; set; }
         public List<IContract> contracts { get; set; }
 
         public string selectedID = "0";
@@ -45,19 +45,21 @@ namespace ApexCareSolutions.Pages.Client
 
             }*/
         }
-
-        public string ContractID_Changed(string selectedValue)
+        
+        /*public void ContractID_Changed(string selectedValue)
         {
+            CF = new ContractFactory();
             foreach (var con in contracts)
             {
                 if (con.ContractID == selectedValue)
                 {
                     contract = con;
-                    selectedID = con.ContractID;
+                    Type = CF.DetermineType(contract);
+                    Residency = CF.DetermineResidency(contract);
+                    break;
                 }
             }
-            return null;
-        }
+        }*/
 
         public IActionResult OnGet()
         {

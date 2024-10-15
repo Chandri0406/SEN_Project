@@ -1,15 +1,28 @@
 ﻿@page
 @model ApexCareSolutions.Pages.Client.contractHistoryModel
 @functions{
-    
+    public string ContractID_Changed(string selectedValue)
+    {
+        Model.CF = new Models.ContractFactory();
+        foreach (var con in Model.contracts)
+        {
+            if (con.ContractID == selectedValue)
+            {
+                Model.contract = con;
+                Model.Type = Model.CF.DetermineType(Model.contract);
+                Model.Residency = Model.CF.DetermineResidency(Model.contract);
+                return selectedValue;
+            }
+        }
+        return null;
+    }
 }
 
 <div>
     <main>
         <h2>Viewing Contract</h2>
 
-        <select asp-for="selectedID" onchange="@Model.ContractID_Changed(Model.selectedID)">
-            @* <option value="all">All Contracts</option> *@
+        <select asp-for="selectedID" onchange="@ContractID_Changed(Model.selectedID)">
             @foreach (var contract in Model.contracts)
             {
                 <option value="@contract.ContractID">@contract.ContractID</option>

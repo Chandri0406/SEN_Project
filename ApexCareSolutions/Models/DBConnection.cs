@@ -24,31 +24,6 @@ namespace ApexCareSolutions.Models
             return new NpgsqlConnection(_connectionString);
         }
 
-        /* public void addComplaint(Complaint complaint)
-        {
-            // Add complaint to database
-            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
-            {
-                NpgsqlCommand command = new NpgsqlCommand("sp_addcomplaint", connection);
-                command.CommandType = CommandType.StoredProcedure;
-
-                NpgsqlParameter issueIDParam = new NpgsqlParameter("p_IssueID", NpgsqlDbType.Text);
-                issueIDParam.Value = complaint.IssueID;
-                command.Parameters.Add(issueIDParam);
-
-                NpgsqlParameter dateReportedParam = new NpgsqlParameter("p_DateReported", NpgsqlDbType.Date);
-                dateReportedParam.Value = complaint.DateReported;
-                command.Parameters.Add(dateReportedParam);
-
-                NpgsqlParameter descriptionParam = new NpgsqlParameter("p_Description", NpgsqlDbType.Text);
-                descriptionParam.Value = complaint.Description;
-                command.Parameters.Add(descriptionParam);
-
-                command.ExecuteNonQuery();
-            }
-
-        }
-        */
         public void addComplaint(Complaint complaint)
         {
             try
@@ -84,32 +59,39 @@ namespace ApexCareSolutions.Models
             }
         }
 
-        public void addFeedback(Feedback feedback) 
+        public void addFeedback(Feedback feedback)
         {
-            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+            try
             {
-                NpgsqlCommand command = new NpgsqlCommand("sp_addfeedback", connection);
-                command.CommandType = CommandType.StoredProcedure;
+                // Add complaint to the database
+                using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+                {
+                    // Open the connection
+                    connection.Open();
 
-                NpgsqlParameter issueIDParam = new NpgsqlParameter("p_IssueID", NpgsqlDbType.Text);
-                issueIDParam.Value = feedback.IssueID;
-                command.Parameters.Add(issueIDParam);
+                    // Define the stored procedure command
+                    using (NpgsqlCommand command = new NpgsqlCommand("sp_addfeedback", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
 
-                NpgsqlParameter ratingParam = new NpgsqlParameter("p_DateReported", NpgsqlDbType.Date);
-                ratingParam.Value = feedback.Rating;
-                command.Parameters.Add(ratingParam);
+                        // Add parameters
+                        command.Parameters.AddWithValue("p_clientid", NpgsqlDbType.Integer, feedback.ClientID);
+                        command.Parameters.AddWithValue("p_issueid", NpgsqlDbType.Text, feedback.IssueID);
+                        command.Parameters.AddWithValue("p_rating", NpgsqlDbType.Integer, feedback.Rating);
+                        command.Parameters.AddWithValue("p_comments", NpgsqlDbType.Text, feedback.Comments);
+                        command.Parameters.AddWithValue("p_dateprovided", NpgsqlDbType.Date, feedback.DateProvided);
 
-                NpgsqlParameter dateProvidedParam = new NpgsqlParameter("p_DateReported", NpgsqlDbType.Date);
-                dateProvidedParam.Value = feedback.DateProvided;
-                command.Parameters.Add(dateProvidedParam);
-
-                NpgsqlParameter commentsParam = new NpgsqlParameter("p_Description", NpgsqlDbType.Text);
-                commentsParam.Value = feedback.Comments;
-                command.Parameters.Add(commentsParam);
-
-                command.ExecuteNonQuery();
+                        // Execute the stored procedure
+                        command.ExecuteNonQuery();
+                    }
+                }
             }
-            
+            catch (Exception ex)
+            {
+                // Log or handle the error appropriately
+                Console.WriteLine("Error adding complaint: " + ex.Message);
+                throw;
+            }
         }
 
         public void InsertUser(User user, Clients clients)

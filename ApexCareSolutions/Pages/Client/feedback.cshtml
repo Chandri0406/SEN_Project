@@ -4,20 +4,28 @@
 }
 
 <div>
-    <form action="/" method="post">
+    <form method="post">
+        @Html.AntiForgeryToken()
+
+        <div>
+            <label asp-for="feedback.ClientID">Client ID:</label>
+            <input type="number" asp-for="feedback.ClientID" />
+        </div>
+
         <div>
             <label asp-for = "feedback.IssueID">Issue ID:</label>
             <input type="text" asp-for="feedback.IssueID" />
         </div>
 
         <div>
-            <label asp-for = "feedback.Rating">Rating:</label>
-            <input type="date" asp-for="feedback.Rating" />
+            <label asp-for="feedback.Rating">Rating (1-5):</label>
+            <input type="number" asp-for="feedback.Rating" min="1" max="5" />
+            <span asp-validation-for="feedback.Rating" class="text-danger"></span>
         </div>
 
         <div>
             <label asp-for="feedback.DateProvided">Date:</label>
-            <input type="text" asp-for="feedback.DateProvided" />
+            <input type="date" asp-for="feedback.DateProvided" />
         </div>
 
          <div>
@@ -27,4 +35,12 @@
 
         <button type="submit">Submit</button>
         </form>
+
+    @if (Model.IsFeedbackSent)
+    {
+        <p style="color:red;">Feedback submitted successfully</p>
+    }
+
+    @section Scripts {
+    <partial name="_ValidationScriptsPartial" />}
 </div>

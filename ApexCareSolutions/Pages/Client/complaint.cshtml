@@ -34,4 +34,10 @@
 
         <button type="submit">Send</button>
         </form>
+
+    @* Conditionally display the success message *@
+    @if (Model.IsComplaintSent)
+    {
+        <p style="color:red;">Complaint sent successfully</p>
+    }
 </div>

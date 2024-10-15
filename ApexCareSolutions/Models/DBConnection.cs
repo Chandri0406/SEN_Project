@@ -24,6 +24,54 @@ namespace ApexCareSolutions.Models
             return new NpgsqlConnection(_connectionString);
         }
 
+        public async Task<User> GetUserDetails(string username)
+        {
+            User user = null;
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+            {
+                NpgsqlCommand command = new NpgsqlCommand("sp_getuser", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                NpgsqlParameter usernameParam = new NpgsqlParameter("username", NpgsqlDbType.Text);
+                usernameParam.Value = username;
+                command.Parameters.Add(usernameParam);
+
+                try
+                {
+                    connection.Open();
+                    NpgsqlDataReader reader = await command.ExecuteReaderAsync();
+
+                    // If data is returned, instantiate the User object
+                    if (reader.Read())
+                    {
+                        // Adjust the indexes based on your stored procedure's result columns
+                        user = new User
+                        (
+                            reader.GetString(0), // Username
+                            reader.GetString(1), // Password
+                            reader.GetString(2)  // Role
+                        );
+                    }
+
+                    reader.Close(); // Close the reader when done
+                }
+                catch (Exception ex)
+                {
+                    // Handle exceptions appropriately (log the error, etc.)
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    connection.Close(); // Always close the connection
+                }
+            }
+
+            return user; // Return the user object or null if not found
+        }
+
+
+
         public Clients GetClientDetails(string username)
         {
             Clients client = null;

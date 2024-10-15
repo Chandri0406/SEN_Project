@@ -5,24 +5,28 @@
 }
 
 <div id="loginBody">
-    <form>
+    <h2 id="lgLabel">Login</h2>
+    <form method="post">
         <div class="fields">
-            <label asp-for="user.Username">Username: </label>
-            <input asp-for="user.Username"/>
+            <label asp-for="User.Username">Username:</label>
+            <input asp-for="User.Username" />
         </div>
 
         <div class="fields">
-            <label asp-for="user.Password">Password: </label>
-            <input asp-for="user.Password"/>
+            <label asp-for="User.Password">Password:</label>
+            <input asp-for="User.Password" type="password" />
         </div>
 
         <div class="fields">
-            error text go here
+            @if (!string.IsNullOrEmpty(ModelState[""].Errors.FirstOrDefault()?.ErrorMessage))
+            {
+                <span class="error-message">@ModelState[""].Errors.FirstOrDefault()?.ErrorMessage</span> <!-- Error message with styling -->
+            }
         </div>
 
         <div class="fields">
-            <label asp-for="user.Role">Role: </label>
-            <select asp-for="user.Role">
+            <label asp-for="User.Role">Role:</label>
+            <select asp-for="User.Role">
                 <option value=""></option>
                 <option value="Client">Client</option>
                 <option value="Agent">Service Agent</option>
@@ -30,7 +34,7 @@
             </select>
         </div>
 
-        <button id="login" type="submit">Login</button>
+        <button id="loginBtn" type="submit">Login</button>
     </form>
 
     <div>

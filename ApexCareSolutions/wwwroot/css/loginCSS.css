@@ -1,27 +1,45 @@
-﻿body {
+﻿﻿body {
     background-color: #3D3D3D;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
 }
 
 #loginBody {
-    position: absolute;
-    align-self: center;
-    background-color: #C7C7BF;
-    width: 306px;
-    height: 370px;
-    padding: 50px;
-    box-shadow: 10px 10px 8px rgba(0, 34, 78);
+    background-color: #C7C7BF; 
+    width: 306px; 
+    padding: 50px; 
+    box-shadow: 5px 5px 4px #00224E; 
+    border-radius: 10px; 
 }
 
-#lgLabel {
-    font-size: 15px;
+.fields {
+    margin-bottom: 20px; 
 }
 
-#lgInput {
+.errorMSG {
+    color: red; 
+    font-size: 12px; 
 }
 
 #loginBtn {
+    width: 82px; 
+    height: 27px; 
 }
 
-a {
-    color:;
+input[type="text"],
+input[type="password"],
+select {
+    background-color: #D7D7D7;
+    color: black;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+}
+
+select {
+    height: 34px;
 }

@@ -5,23 +5,26 @@
 }
 
 <div id="loginBody">
-    <form>
+    <h2 id="lgLabel">Login</h2>
+    <form method="post">
+        @Html.AntiForgeryToken()
         <div class="fields">
-            <label asp-for="user.Username">Username: </label>
-            <input asp-for="user.Username"/>
+            <label asp-for="user.Username">Username:</label>
+            <input asp-for="user.Username" />
         </div>
 
         <div class="fields">
-            <label asp-for="user.Password">Password: </label>
-            <input asp-for="user.Password"/>
+            <label asp-for="user.Password">Password:</label>
+            <input asp-for="user.Password" type="password" />
         </div>
 
         <div class="fields">
-            error text go here
+            @Html.ValidationMessageFor(model => model.user.Username)
+            @Html.ValidationMessageFor(model => model.user.Password)
         </div>
 
         <div class="fields">
-            <label asp-for="user.Role">Role: </label>
+            <label asp-for="user.Role">Role:</label>
             <select asp-for="user.Role">
                 <option value=""></option>
                 <option value="Client">Client</option>
@@ -30,7 +33,7 @@
             </select>
         </div>
 
-        <button id="login" type="submit">Login</button>
+        <button id="loginBtn" type="submit">Login</button>
     </form>
 
     <div>

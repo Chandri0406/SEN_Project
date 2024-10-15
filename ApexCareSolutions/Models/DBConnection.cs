@@ -24,6 +24,51 @@ namespace ApexCareSolutions.Models
             return new NpgsqlConnection(_connectionString);
         }
 
+        public User GetUserDetails(string username)
+        {
+            User user = null;
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+            {
+                NpgsqlCommand command = new NpgsqlCommand("sp_getuser", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                NpgsqlParameter usernameParam = new NpgsqlParameter("username", NpgsqlDbType.Text);
+                usernameParam.Value = username;
+                command.Parameters.Add(usernameParam);
+
+                try
+                {
+                    connection.Open();
+                    NpgsqlDataReader reader = command.ExecuteReader();
+
+                    // If data is returned, instantiate the User object
+                    while (reader.Read())
+                    {
+
+                        reader.GetString("Username");
+                        reader.GetString("Password");
+                        reader.GetString("Role");
+                 
+                    }
+
+                    reader.Close(); // Close the reader when done
+                }
+                catch (Exception ex)
+                {
+                    // Handle exceptions appropriately (log the error, etc.)
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    connection.Close(); // Always close the connection
+                }
+            }
+
+            return user;
+        }
+
+
         public Clients GetClientDetails(string username)
         {
             Clients client = null;

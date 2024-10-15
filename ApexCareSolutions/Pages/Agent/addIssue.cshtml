@@ -1,4 +1,81 @@
 ﻿@page
 @model ApexCareSolutions.Pages.Agent.addIssueModel
+@using ApexCareSolutions.Models;
 @{
+    Layout = "~/Pages/Shared/_LayoutAgent.cshtml";
+    ViewData["Title"] = "Add/Report Issue";
 }
+
+<div class="main_content">
+    <main>
+        <form method="post">
+            <label>Client ID:</label>
+            <input type="text" asp-for="issue.ClientID" /><br /><br />
+
+            <label>Call ID:</label>
+            <input type="text" asp-for="issue.CallID" /><br /><br />
+
+            <label>Contract ID:</label>
+            <input type="text" asp-for="issue.ContractID" /><br /><br />
+
+            
+            @* @if(Model.issue is MalfunctionIssue i1)
+            {
+                <label>Description:</label>
+                <input type="text" asp-for="@i1.Description" /><br /><br />
+            }
+            else if (Model.issue is InstallationIssue i2)
+            {
+                <label>Description:</label>
+                <input type="text" asp-for="@i2.Description" />
+
+                <br />
+
+                <br />
+            }
+            else if (Model.issue is PowerTripIssue i3)
+            {
+                <label>Description:</label>
+                <input type="text" asp-for="@i3.Description" />
+
+                <br />
+
+                <br />
+            }
+            else
+            {
+                var i4 = new MalfunctionIssue(){Description = ""};
+                <label>Description:</label>
+                <input type="text" asp-for="@i4.Description" /><br /><br />
+            } *@
+
+            <label>Description:</label>
+            <select asp-for="Description">
+                <option value="Power Trip">Power Trip Issue</option>
+                <option value="Malfunction">Malfunction Issue</option>
+                <option value="Installation">Installation Issue</option>
+            </select> <br /><br />
+
+            <label>Priority:</label>
+            <select asp-for="issue.Priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select> <br /><br />
+
+            <label>Status:</label>
+            <select asp-for="issue.Status">
+                <option value="open">Open</option>
+                <option value="closed">Closed</option>
+            </select> <br /><br />
+
+            <label>Start Date:</label>
+            <input type="text" asp-for="issue.StartDate" /><br /><br />
+
+            <label>End Date:</label>
+            <input type="text" asp-for="issue.EndDate" /><br /><br />
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</div>

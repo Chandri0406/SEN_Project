@@ -1,48 +1,100 @@
-﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+﻿html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
-a {
-  color: #0077cc;
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+body {
+    background-color: #C7C7BF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+.fields {
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.headerBar {
+    background-color: #14498B;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+#logo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+.headTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.navBox {
+    width: 250px;
+    background-color: #E7E7E6;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+main {
+    flex-grow: 1; /* Makes the main content take up the remaining space */
+    padding: 20px;
+    background-color: #E7E7E6;
+    border: 1px solid black;
+}
+
+.navHead {
+    color: #02050A;
+    margin-bottom: 0;
+}
+
+.navLine {
+    border: 1px solid #F6BF41;
+}
+
+.nav_items a {
+    color: #02050A;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav_items a:hover {
+    background-color: #14498B;
+}
+
+.logout_btn {
+    color: #14498B;
+    font-size: 20px;
+    margin-top: 20px;
+    display: block;
+    align-self: center;
+}
+
+.mainContent {
+    background-color: #E7E7E6;
+    border: 1px solid black;
+    color: #02050A;
+}
+
+#editProfile {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
 }

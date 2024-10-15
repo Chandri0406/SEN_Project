@@ -18,8 +18,23 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
     <Folder Include="Services\" />
-    <Folder Include="wwwroot\img\icons\" />
+    <Folder Include="wwwroot\images\icons\" />
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\lib\bootstrap\" />
+    <Folder Include="wwwroot\lib\bootstrap\dist\js\" />
+    <Folder Include="wwwroot\lib\jquery-validation-unobtrusive\" />
+    <Folder Include="wwwroot\lib\jquery-validation\" />
+    <Folder Include="wwwroot\lib\jquery-validation\dist\" />
+    <Folder Include="wwwroot\lib\jquery\" />
+    <Folder Include="wwwroot\lib\jquery\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+    <PackageReference Include="Npgsql" Version="8.0.4" />
   </ItemGroup>
 
   <ItemGroup>

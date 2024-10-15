@@ -1,0 +1,27 @@
+﻿body {
+    background-color: #3D3D3D;
+}
+
+#loginBody {
+    position: absolute;
+    align-self: center;
+    background-color: #C7C7BF;
+    width: 306px;
+    height: 370px;
+    padding: 50px;
+    box-shadow: 10px 10px 8px rgba(0, 34, 78);
+}
+
+#lgLabel {
+    font-size: 15px;
+}
+
+#lgInput {
+}
+
+#loginBtn {
+}
+
+a {
+    color:;
+}

@@ -1,4 +1,39 @@
 ﻿@page
 @model ApexCareSolutions.Pages.loginModel
 @{
+    Layout = "~/Pages/Shared/_LayoutLogin.cshtml";
 }
+
+<div id="loginBody">
+    <form>
+        <div class="fields">
+            <label asp-for="user.Username">Username: </label>
+            <input asp-for="user.Username"/>
+        </div>
+
+        <div class="fields">
+            <label asp-for="user.Password">Password: </label>
+            <input asp-for="user.Password"/>
+        </div>
+
+        <div class="fields">
+            error text go here
+        </div>
+
+        <div class="fields">
+            <label asp-for="user.Role">Role: </label>
+            <select asp-for="user.Role">
+                <option value=""></option>
+                <option value="Client">Client</option>
+                <option value="Agent">Service Agent</option>
+                <option value="Technician">Technician</option>
+            </select>
+        </div>
+
+        <button id="login" type="submit">Login</button>
+    </form>
+
+    <div>
+        Not a user? <a asp-page="/createUser"><u>Create an account</u></a>
+    </div>
+</div>

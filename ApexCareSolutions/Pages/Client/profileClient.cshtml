@@ -1,4 +1,31 @@
 ﻿@page
 @model ApexCareSolutions.Pages.Client.profileClientModel
 @{
+    ViewData["Title"] = "Profile Details";
 }
+
+<section class="mainContent">  
+        <form method="post">
+        <!-- Please add divs like this to each pair of fields -->
+        <div class="fields"></div>
+            <label class="lbl">Username:</label>
+            <input class="input" type="text" asp-for="client.Username" /><br /><br />
+
+            <label class="lbl">FirstName:</label>
+            <input class="input" type="text" asp-for="client.FirstName" /><br /><br />
+
+            <label class="lbl">LastName:</label>
+            <input class="input" type="text" asp-for="client.LastName" /><br /><br />
+
+            <label class="lbl">Phone:</label>
+            <input class="input" type="text" asp-for="client.Phone" /><br /><br />
+
+            <label class="lbl">Email:</label>
+            <input class="input"  type="text" asp-for="client.Email" /><br /><br />
+
+            <label class="lbl">Address:</label>
+            <input class="input" type="text" asp-for="client.Address" /><br /><br />
+
+            <button id="editProfile">Edit Profile</button>
+        </form>
+</section>

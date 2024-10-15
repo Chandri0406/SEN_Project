@@ -1,72 +1,134 @@
 ﻿@page
 @model ApexCareSolutions.Pages.createUserModel
-@{
-}
 
 <div>
-    <form method="post">
+    <form method="post" id="signupForm">
         @Html.AntiForgeryToken()
 
         <div>
             <label asp-for="clients.FirstName">First Name: </label>
             <input type="text" asp-for="clients.FirstName" required />
-            <span asp-validation-for="clients.FirstName" class="text-danger"></span>
         </div>
 
         <div>
             <label asp-for="clients.LastName">Last Name: </label>
             <input type="text" asp-for="clients.LastName" required />
-            <span asp-validation-for="clients.LastName" class="text-danger"></span>
         </div>
 
         <div>
             <label asp-for="clients.Phone">Phone: </label>
             <input type="text" asp-for="clients.Phone" required />
-            <span asp-validation-for="clients.Phone" class="text-danger"></span>
         </div>
 
         <div>
             <label asp-for="clients.Email">Email: </label>
-            <input type="email" asp-for="clients.Email" required />
-            <span asp-validation-for="clients.Email" class="text-danger"></span>
+            <input type="email"
+                   asp-for="clients.Email"
+                   required
+                   id="email"
+                   class="input-field" />
         </div>
 
         <div>
             <label asp-for="ConfirmEmail">Confirm Email: </label>
-            <input type="email" asp-for="ConfirmEmail" required />
-            @if (!string.IsNullOrEmpty(Model.EmailErrorMessage))
-            {
-                <span class="text-danger">@Model.EmailErrorMessage</span>
-            }
+            <input type="email"
+                   asp-for="ConfirmEmail"
+                   required
+                   id="confirmEmail"
+                   class="input-field" />
+            <span class="error-message" id="emailError"></span>
         </div>
 
         <div>
             <label asp-for="clients.Address">Address: </label>
             <input type="text" asp-for="clients.Address" required />
-            <span asp-validation-for="clients.Address" class="text-danger"></span>
         </div>
 
         <div>
             <label asp-for="user.Username">Username: </label>
             <input type="text" asp-for="user.Username" required />
-            <span asp-validation-for="user.Username" class="text-danger"></span>
         </div>
 
         <div>
             <label asp-for="user.Password">Password: </label>
-            <input type="password" asp-for="user.Password" required />
-            <span asp-validation-for="user.Password" class="text-danger"></span>
+            <input type="password"
+                   asp-for="user.Password"
+                   required
+                   id="password"
+                   class="input-field" />
         </div>
 
         <div>
             <label asp-for="ConfirmPassword">Confirm Password: </label>
-            <input type="password" asp-for="ConfirmPassword" required />
-            @if (!string.IsNullOrEmpty(Model.PasswordErrorMessage))
-            {
-                <span class="text-danger">@Model.PasswordErrorMessage</span>
-            }
+            <input type="password"
+                   asp-for="ConfirmPassword"
+                   required
+                   id="confirmPassword"
+                   class="input-field" />
+            <span class="error-message" id="passwordError"></span>
         </div>
 
         <button type="submit">Sign Up</button>
     </form>
 </div>
+
+<style>
+    /* CSS class for input error styling */
+    .input-error {
+        border: 2px solid red;
+        border-radius: 4px;
+    }
+
+    /* Error message styling */
+    .error-message {
+        color: red;
+        font-size: 0.9em;
+    }
+</style>
+
+<script>
+    // Real-time validation for email and password match
+    document.getElementById('confirmEmail').addEventListener('input', validateEmail);
+    document.getElementById('confirmPassword').addEventListener('input', validatePassword);
+
+    function validateEmail() {
+        const email = document.getElementById('email').value;
+        const confirmEmail = document.getElementById('confirmEmail').value;
+        const emailError = document.getElementById('emailError');
+
+        if (email !== confirmEmail) {
+            document.getElementById('confirmEmail').classList.add('input-error');
+            emailError.textContent = "Emails do not match!";
+        } else {
+            document.getElementById('confirmEmail').classList.remove('input-error');
+            emailError.textContent = "";
+        }
+    }
+
+    function validatePassword() {
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('confirmPassword').value;
+        const passwordError = document.getElementById('passwordError');
+
+        if (password !== confirmPassword) {
+            document.getElementById('confirmPassword').classList.add('input-error');
+            passwordError.textContent = "Passwords do not match!";
+        } else {
+            document.getElementById('confirmPassword').classList.remove('input-error');
+            passwordError.textContent = "";
+        }
+    }
+
+    // Prevent form submission if there are validation errors
+    document.getElementById('signupForm').addEventListener('submit', function (event) {
+        validateEmail();
+        validatePassword();
+
+        const emailError = document.getElementById('emailError').textContent;
+        const passwordError = document.getElementById('passwordError').textContent;
+
+        if (emailError || passwordError) {
+            event.preventDefault(); // Stop form submission
+        }
+    });
+</script>

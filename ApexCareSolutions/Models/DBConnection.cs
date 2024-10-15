@@ -3,7 +3,7 @@ using System.Data;
 using System.Text;
 using Npgsql;
 using NpgsqlTypes;
-using System.Security.Cryptography;  // Add this for SHA256
+using System.Security.Cryptography;  // Added this for SHA256
 
 namespace ApexCareSolutions.Models
 {

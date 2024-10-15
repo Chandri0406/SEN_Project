@@ -3,29 +3,29 @@
 @{
 }
 <div>
-    <section class="dashboard-content">
-        <div class="stats">
-            <div class="stat-item">
+
+        <div>
+            <div>
                 <h3>Total No. of contracts:</h3>
-                <p class="stat-value">132</p>
+                <input class="stat-value" readonly asp-for="contractCount"/>
+                <p class="lead">@Model.averageRating</p>
             </div>
-            <div class="stat-item">
+            <div>
                 <h3>No. of Techs:</h3>
-                <p class="stat-value">12</p>
+                <input readonly asp-for="technicianCount" />
             </div>
-            <div class="stat-item">
+            <div>
                 <h3>No. service agents:</h3>
-                <p class="stat-value">8</p>
+                <input readonly asp-for="serviceAgentCount" />
             </div>
-            <div class="stat-item">
+            <div>
                 <h3>Average customer satisfaction:</h3>
-                <p class="stat-value">4/5</p>
+                <input readonly asp-for="averageRating" />
             </div>
         </div>
 
-        <div class="longest-contract">
+        <div>
             <h3>Longest lasting contract:</h3>
-            <p class="contract-duration">3 Years!</p>
+            <input readonly asp-for="averageRate" />    
         </div>
-    </section>
 </div>

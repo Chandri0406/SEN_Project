@@ -1,38 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\",
+  "WorkspaceRootPath": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\technician\\proiletechnician.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\technician\\proiletechnician.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\pages\\client\\managecontract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\managecontract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\technician\\proiletechnician.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\technician\\proiletechnician.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\pages\\client\\managecontract.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\models\\serviceagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\serviceagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\client\\managecontract.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\managecontract.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\models\\commercialcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\commercialcontract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\pages\\client\\contractdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contractdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\pages\\client\\contractdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\client\\contractdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contractdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\client\\contractdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\contractdetails.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\prg 272\\folder\\sen_project\\apexcaresolutions\\models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\client\\managecontract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\managecontract.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\agent\\profileagent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\agent\\profileagent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\pages\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:pages\\client\\profileclient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|c:\\users\\daniel\\documents\\bit 3rd year\\sen 371\\newprojectcode\\apexcaresolutions\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A4D028B-0987-491F-94D5-DE246C20BB0E}|ApexCareSolutions.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,107 +110,169 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ServiceAgent.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\ServiceAgent.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceAgent.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\ServiceAgent.cs",
+              "RelativeToolTip": "Models\\ServiceAgent.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T18:02:20.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "manageContract.cshtml",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Client\\manageContract.cshtml",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml",
-              "RelativeToolTip": "Pages\\Client\\manageContract.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T17:20:48.968Z",
+              "WhenOpened": "2024-10-15T12:56:13.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "manageContract.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Client\\manageContract.cshtml.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml.cs",
-              "RelativeToolTip": "Pages\\Client\\manageContract.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\DBConnection.cs",
+              "RelativeDocumentMoniker": "Models\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\DBConnection.cs",
+              "RelativeToolTip": "Models\\DBConnection.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowIsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:20:46.223Z",
+              "WhenOpened": "2024-10-15T08:33:37.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CommercialContract.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Models\\CommercialContract.cs",
-              "RelativeDocumentMoniker": "Models\\CommercialContract.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Models\\CommercialContract.cs",
-              "RelativeToolTip": "Models\\CommercialContract.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:00:28.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "contractDetails.cshtml",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Client\\contractDetails.cshtml",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml",
-              "RelativeToolTip": "Pages\\Client\\contractDetails.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "proileTechnician.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Technician\\proileTechnician.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Technician\\proileTechnician.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Technician\\proileTechnician.cshtml",
+              "RelativeToolTip": "Pages\\Technician\\proileTechnician.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T15:50:17.479Z",
+              "WhenOpened": "2024-10-14T18:41:17.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "proileTechnician.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Technician\\proileTechnician.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Technician\\proileTechnician.cshtml.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Technician\\proileTechnician.cshtml.cs",
+              "RelativeToolTip": "Pages\\Technician\\proileTechnician.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T06:17:02.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "contractDetails.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Client\\contractDetails.cshtml.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml.cs",
-              "RelativeToolTip": "Pages\\Client\\contractDetails.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\Feedback.cs",
+              "RelativeDocumentMoniker": "Models\\Feedback.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\Feedback.cs",
+              "RelativeToolTip": "Models\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T15:51:02.826Z",
+              "WhenOpened": "2024-10-15T06:44:43.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "manageContract.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Client\\manageContract.cshtml.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml.cs",
+              "RelativeToolTip": "Pages\\Client\\manageContract.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:37:47.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Clients.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Models\\Clients.cs",
-              "RelativeDocumentMoniker": "Models\\Clients.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Models\\Clients.cs",
-              "RelativeToolTip": "Models\\Clients.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T16:59:09.679Z",
+              "Title": "contractDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\contractDetails.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml",
+              "RelativeToolTip": "Pages\\Client\\contractDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:10:07.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
-              "RelativeDocumentMoniker": "Models\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\Models\\DBConnection.cs",
-              "RelativeToolTip": "Models\\DBConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Title": "contractDetails.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Client\\contractDetails.cshtml.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\contractDetails.cshtml.cs",
+              "RelativeToolTip": "Pages\\Client\\contractDetails.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T17:00:29.64Z",
+              "WhenOpened": "2024-10-14T18:37:27.433Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:37:06.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "manageContract.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\manageContract.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\manageContract.cshtml",
+              "RelativeToolTip": "Pages\\Client\\manageContract.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T13:10:23.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "profileAgent.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Agent\\profileAgent.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Agent\\profileAgent.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Agent\\profileAgent.cshtml",
+              "RelativeToolTip": "Pages\\Agent\\profileAgent.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T10:56:34.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "profileClient.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Client\\profileClient.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Pages\\Client\\profileClient.cshtml",
+              "RelativeToolTip": "Pages\\Client\\profileClient.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T10:56:10.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T07:05:45.16Z"
             }
           ]
         }

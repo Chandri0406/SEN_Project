@@ -41,3 +41,12 @@ C:\Users\Daniel\Documents\BIT 3rd year\PRG 272\folder\SEN_Project\ApexCareSoluti
 C:\Users\Daniel\Documents\BIT 3rd year\PRG 272\folder\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cache
 C:\Users\Daniel\Documents\BIT 3rd year\PRG 272\folder\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cs
 C:\Users\Daniel\Documents\BIT 3rd year\PRG 272\folder\SEN_Project\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.sourcelink.json
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.csproj.AssemblyReference.cache
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.AssemblyInfo.cs
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cache
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.RazorAssemblyInfo.cs
+C:\Users\Daniel\Documents\BIT 3rd year\SEN 371\NewProjectCode\ApexCareSolutions\obj\Debug\net8.0\ApexCareSolutions.sourcelink.json

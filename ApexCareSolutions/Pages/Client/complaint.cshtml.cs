@@ -7,6 +7,7 @@ namespace ApexCareSolutions.Pages.Client
     {
         public void OnGet()
         {
+
         }
     }
 }

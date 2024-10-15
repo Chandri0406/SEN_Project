@@ -196,11 +196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\ApexCareSolutions.csproj",
       "projectName": "ApexCareSolutions",
-      "projectPath": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\ApexCareSolutions.csproj",
+      "projectPath": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\ApexCareSolutions.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\PRG 272\\folder\\SEN_Project\\ApexCareSolutions\\obj\\",
+      "outputPath": "C:\\Users\\Daniel\\Documents\\BIT 3rd year\\SEN 371\\NewProjectCode\\ApexCareSolutions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -24,6 +24,10 @@ namespace ApexCareSolutions.Models
             DateProvided = dateProvided;
         }
 
+        public Feedback()
+        {
+        }
+
         // Optional: Validation logic or methods related to feedback
         public bool IsValid()
         {

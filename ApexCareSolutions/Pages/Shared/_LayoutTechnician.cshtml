@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <!-- Top Bar -->
+    <header class="headerBar">
+        <img src="~/images/logoMini.png" alt="Logo" id="logo">
+        <span class="headTitle">Hello, @ViewData["Username"]</span>
+    </header>
+
+    <!-- Main Layout Container -->
+    <div>
+        <!-- Sidebar -->
+            <nav>
+                <h3 class="navHead">Profile</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-area="" asp-for="/Technician/profileTechnician">Profile details</a></li>
+                </ul>
+
+                <h3 class="navHead">Jobs</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-area="" asp-for="/Technician/ongoingJobs">Ongoing Job Assignments</a></li>
+                </ul>
+
+                <button class="logout_btn"><a href="/login">Logout</a></button>
+            </nav>
+        </div>
+
+    <div class="mainContents">
+            <!-- Main Content Area -->
+            <main>
+                @RenderBody()
+
+                <!-- Edit Profile Button -->
+                <button id="editProfile">
+                    Edit Profile
+                </button>
+            </main>
+        </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

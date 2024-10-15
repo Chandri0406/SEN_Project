@@ -2,3 +2,38 @@
 @model ApexCareSolutions.Pages.Client.contractDetailsModel
 @{
 }
+
+<div>
+	<form method="post">
+		@Html.AntiForgeryToken()
+
+		<div>
+			<label> Name: </label>
+			<input type="text" asp-for="clients.FirstName"/>
+		</div>
+		<div>
+			<label> Surname: </label>
+			<input type="text" asp-for="clients.LastName" />
+		</div>
+		<div>
+			<label> Address: </label>
+			<input type="text" asp-for="clients.Address" />
+		</div>
+		<div>
+			<label> Contract ID: </label>
+			<input type="number" asp-for="commercialContract.ContractID" />
+		</div>
+		<div>
+			<label> Contract Type: </label>
+			<input type="text" asp-for="commercialContract.Type" />
+		</div>
+		<div>
+			<label> Start Date: </label>
+			<input type="datetime" asp-for="commercialContract.StartDate" />
+		</div>
+		<div>
+			<label> End Date: </label>
+			<input type="datetime" asp-for="commercialContract.EndDate" />
+		</div>
+	</form>
+</div>

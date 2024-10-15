@@ -18,8 +18,17 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+// Set the default route to the login page
+app.MapGet("/", async context =>
+{
+    context.Response.Redirect("/login"); // Change "/login" to your actual login page route
+});
+
+app.Run();
 
 app.Run();

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <!-- Top Bar -->
+    <header class="headerBar">
+        <img src="~/images/logoMini.png" alt="Logo" id="logo">
+        <span class="headTitle">Hello, @ViewData["Username"]</span>
+    </header>
+
+    <!-- Main Layout Container -->
+    <div style="display: flex; height: calc(100vh - 60px);">
+        <!-- Sidebar -->
+        <aside style="width: 250px; background-color: #f2f2f2; padding: 20px;">
+            <nav>
+                <h3 class="navHead">Profile</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-pages="/Agent/profileAgent">Profile details</a></li>
+                    <li class="nav_items"><a asp-pages="/Agent/dashboard">Dashboard</a></li>
+                </ul>
+
+                <h3 class="navHead">Clients</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-pages="/Agent/client&contract">Client and Contract Details</a></li>
+                </ul>
+
+                <h3 class="navHead">Issues</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-pages="/Agent/addIssue">Report an Issue</a></li>
+                    <li class="nav_items"><a asp-pages="/Agent/assignIssue">Assign an Issue</a></li>
+                </ul>
+
+                <a asp-pages="/login" style="color: #0044a6; margin-top: 20px; display: block;">Logout</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main style="flex-grow: 1; padding: 30px; background-color: white;">
+            @RenderBody()
+        </main>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

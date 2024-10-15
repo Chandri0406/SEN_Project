@@ -1,48 +1,85 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand[b-drr9w9c5u9] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+html[b-drr9w9c5u9] {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
-a[b-drr9w9c5u9] {
-  color: #0077cc;
+@media (min-width: 768px) {
+    html[b-drr9w9c5u9] {
+        font-size: 16px;
+    }
 }
 
-.btn-primary[b-drr9w9c5u9] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+.btn:focus[b-drr9w9c5u9], .btn:active:focus[b-drr9w9c5u9], .btn-link.nav-link:focus[b-drr9w9c5u9], .form-control:focus[b-drr9w9c5u9], .form-check-input:focus[b-drr9w9c5u9] {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-.nav-pills .nav-link.active[b-drr9w9c5u9], .nav-pills .show > .nav-link[b-drr9w9c5u9] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+body[b-drr9w9c5u9] {
+    background-color: #C7C7BF;
 }
 
-.border-top[b-drr9w9c5u9] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-drr9w9c5u9] {
-  border-bottom: 1px solid #e5e5e5;
+.headerBar[b-drr9w9c5u9] {
+    background-color: #14498B;
+    color: white;
 }
 
-.box-shadow[b-drr9w9c5u9] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+#logo[b-drr9w9c5u9] {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
 }
 
-button.accept-policy[b-drr9w9c5u9] {
-  font-size: 1rem;
-  line-height: inherit;
+.headTitle[b-drr9w9c5u9] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 15px;
 }
 
-.footer[b-drr9w9c5u9] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+.navBox[b-drr9w9c5u9] {
+    width: 250px;
+    padding: 20px;
+    background-color: #E7E7E6;
+    font-size: 12px;
+    color: #02050A;
+    float: left;
+    margin-left: 15px;
+}
+
+.navHead[b-drr9w9c5u9] {
+    color: #02050A;
+    margin-bottom: 0;
+}
+
+.navLine[b-drr9w9c5u9] {
+    border: 1px solid #F6BF41;
+}
+
+.nav_items a[b-drr9w9c5u9] {
+    color: #02050A;
+    font-size: 11px;
+}
+
+.logout_btn[b-drr9w9c5u9] {
+    color: #14498B;
+    font-size: 20px;
+    margin-top: 20px;
+    display: block;
+}
+
+.mainContent[b-drr9w9c5u9] {
+    background-color: #E7E7E6;
+    color: #02050A;
+    padding: 25px;
+    margin: 15px;
+}
+
+#editProfile[b-drr9w9c5u9] {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: right;
 }

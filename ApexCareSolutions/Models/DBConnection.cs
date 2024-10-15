@@ -24,6 +24,54 @@ namespace ApexCareSolutions.Models
             return new NpgsqlConnection(_connectionString);
         }
 
+        public async Task<User> GetUserDetails(string username)
+        {
+            User user = null;
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+            {
+                NpgsqlCommand command = new NpgsqlCommand("sp_getuser", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                NpgsqlParameter usernameParam = new NpgsqlParameter("username", NpgsqlDbType.Text);
+                usernameParam.Value = username;
+                command.Parameters.Add(usernameParam);
+
+                try
+                {
+                    connection.Open();
+                    NpgsqlDataReader reader = await command.ExecuteReaderAsync();
+
+                    // If data is returned, instantiate the User object
+                    if (reader.Read())
+                    {
+                        // Adjust the indexes based on your stored procedure's result columns
+                        user = new User
+                        (
+                            reader.GetString(0), // Username
+                            reader.GetString(1), // Password
+                            reader.GetString(2)  // Role
+                        );
+                    }
+
+                    reader.Close(); // Close the reader when done
+                }
+                catch (Exception ex)
+                {
+                    // Handle exceptions appropriately (log the error, etc.)
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                finally
+                {
+                    connection.Close(); // Always close the connection
+                }
+            }
+
+            return user; // Return the user object or null if not found
+        }
+
+
+
         public Clients GetClientDetails(string username)
         {
             Clients client = null;
@@ -100,7 +148,7 @@ namespace ApexCareSolutions.Models
                         DateTime enddate = reader.GetDateTime(3);
                         string status = reader.GetString(4);
                         //string address = reader.GetString(7);
-                        if(contract is WarrantyContract ct1)
+                        if (contract is WarrantyContract ct1)
                         {
                             ct1.ContractID = contractid;
                             ct1.ClientID = clientid;
@@ -155,18 +203,18 @@ namespace ApexCareSolutions.Models
             issueFactory = new IssueFactory();
             try
             {
-                
+
                 using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
                 {
-                    
+
                     connection.Open();
 
-                    
+
                     using (NpgsqlCommand command = new NpgsqlCommand("sp_addissue", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
 
-                       
+
                         command.Parameters.AddWithValue("p_clientid", NpgsqlDbType.Integer, issue.ClientID);
                         command.Parameters.AddWithValue("p_contractid", NpgsqlDbType.Text, issue.ContractID);
                         command.Parameters.AddWithValue("p_callid", NpgsqlDbType.Integer, issue.CallID);
@@ -182,10 +230,73 @@ namespace ApexCareSolutions.Models
             }
             catch (Exception ex)
             {
-                
+
                 Console.WriteLine("Error adding complaint: " + ex.Message);
                 throw;
             }
+        }
+
+        public void addComplaint(Complaint complaint)
+        {
+            try
+            {
+                // Add complaint to the database
+                using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+                {
+                    // Open the connection
+                    connection.Open();
+
+                    // Define the stored procedure command
+                    using (NpgsqlCommand command = new NpgsqlCommand("sp_addcomplaint", connection))
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+
+                        // Add parameters
+                        command.Parameters.AddWithValue("p_clientid", NpgsqlDbType.Integer, complaint.ClientID);
+                        command.Parameters.AddWithValue("p_issueid", NpgsqlDbType.Text, complaint.IssueID);
+                        command.Parameters.AddWithValue("p_datereported", NpgsqlDbType.Date, complaint.DateReported);
+                        command.Parameters.AddWithValue("p_dateresolved", NpgsqlDbType.Date, complaint.DateResolved);
+                        command.Parameters.AddWithValue("p_description", NpgsqlDbType.Text, complaint.Description);
+
+                        // Execute the stored procedure
+                        command.ExecuteNonQuery();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Log or handle the error appropriately
+                Console.WriteLine("Error adding complaint: " + ex.Message);
+                throw;
+            }
+        }
+
+        public void addFeedback(Feedback feedback)
+        {
+            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+            {
+                NpgsqlCommand command = new NpgsqlCommand("sp_addfeedback", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                NpgsqlParameter issueIDParam = new NpgsqlParameter("p_IssueID", NpgsqlDbType.Text);
+                issueIDParam.Value = feedback.IssueID;
+                command.Parameters.Add(issueIDParam);
+
+                NpgsqlParameter ratingParam = new NpgsqlParameter("p_DateReported", NpgsqlDbType.Date);
+                ratingParam.Value = feedback.Rating;
+                command.Parameters.Add(ratingParam);
+
+                NpgsqlParameter dateProvidedParam = new NpgsqlParameter("p_DateReported", NpgsqlDbType.Date);
+                dateProvidedParam.Value = feedback.DateProvided;
+                command.Parameters.Add(dateProvidedParam);
+
+                NpgsqlParameter commentsParam = new NpgsqlParameter("p_Description", NpgsqlDbType.Text);
+                commentsParam.Value = feedback.Comments;
+                command.Parameters.Add(commentsParam);
+
+                command.ExecuteNonQuery();
+            }
+
         }
 
         public void InsertUser(User user, Clients clients)
@@ -203,13 +314,15 @@ namespace ApexCareSolutions.Models
                         // string hashedPassword = HashPassword(user.Password);  
 
                         // Add parameters
-                        command.Parameters.AddWithValue("p_username", NpgsqlDbType.Text, user.Username);
-                        command.Parameters.AddWithValue("p_password", NpgsqlDbType.Text, user.Password);
                         command.Parameters.AddWithValue("p_firstname", NpgsqlDbType.Text, clients.FirstName);
                         command.Parameters.AddWithValue("p_lastname", NpgsqlDbType.Text, clients.LastName);
                         command.Parameters.AddWithValue("p_phone", NpgsqlDbType.Text, clients.Phone);
                         command.Parameters.AddWithValue("p_email", NpgsqlDbType.Text, clients.Email);
                         command.Parameters.AddWithValue("p_address", NpgsqlDbType.Text, clients.Address);
+                        command.Parameters.AddWithValue("p_username", NpgsqlDbType.Text, clients.Username);
+
+                        // Use hashedPassword instead of user.Password when enabling hashing
+                        command.Parameters.AddWithValue("p_password", NpgsqlDbType.Text, user.Password);
 
                         // Execute the stored procedure
                         command.ExecuteNonQuery();
@@ -221,6 +334,58 @@ namespace ApexCareSolutions.Models
                 Console.WriteLine("Error adding user: " + e.Message);
             }
         }
+
+        // Commented-out hashing method for now
+        /*
+        private string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                return Convert.ToBase64String(bytes);
+            }
+        }
+        */
+        public ServiceAgent GetAgentById(string agentID)
+        {
+            ServiceAgent serviceAgent = null;
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(_connectionString))
+            {
+                NpgsqlCommand command = new NpgsqlCommand("sp_getagents", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                NpgsqlParameter agentIdParam = new NpgsqlParameter("agent_id", NpgsqlDbType.Text);
+                agentIdParam.Value = agentID;
+                command.Parameters.Add(agentIdParam);
+
+                try
+                {
+                    connection.Open();
+                    using (NpgsqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            serviceAgent = new ServiceAgent
+                            {
+                                AgentID = reader.GetString("agentID"),
+                                Username = reader.GetString("username"),
+                                FirstName = reader.GetString("firstname"),
+                                LastName = reader.GetString("lastname"),
+                                Phone = reader.GetString("phone"),
+                                Email = reader.GetString("email")
+                            };
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+            }
+            return serviceAgent;
+        }
+
 
     }
 }

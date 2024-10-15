@@ -1,51 +1,53 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ApexCareSolutions</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/ApexCareSolutions.styles.css" asp-append-version="true" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">ApexCareSolutions</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <!-- Top Bar -->
+    <header class="headerBar">
+        <img src="~/images/logoMini.png" alt="Logo" id="logo">
+        <span class="headTitle">Hello, @ViewData["Username"]</span>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+    <!-- Main Layout Container -->
+    <div class="navBox">
+        <!--  Sidebar -->
+            <nav>
+                <h3 class="navHead">Profile</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-area="" asp-page="/Client/profileClient">Profile details</a></li>
+                    <li class="nav_items"><a asp-area="" asp-page="/Agent/profileAgent">Agent Profile details</a></li>
+                    <li class="nav_items"><a asp-area="" asp-page="/Technician/profileTechnician">Tech Profile details</a></li>
+                </ul>
+
+                <h3 class="navHead">Contracts</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-area="" asp-page="/Client/contractDetails">Contract Details</a></li>
+                    <li class="nav_items"><a asp-area="" asp-page="/Client/contractHistory">Contract History</a></li>
+                    <li class="nav_items"><a asp-area="" asp-page="/Client/manageContract">Manage Contract</a></li>
+                </ul>
+
+                <h3 class="navHead">Issues</h3>
+                <hr class="navLine">
+                <ul>
+                    <li class="nav_items"><a asp-area="" asp-page="/Client/feedback">Feedback Survey</a></li>
+                    <li class="nav_items"><a asp-area="" asp-page="/Client/complaint">Send a Complaint</a></li>
+                </ul>
+
+            <a asp-page="/login" class="logout_btn">Logout</a>
+            </nav>
     </div>
+        <!-- Main Content Area -->
+            <main>
+                @RenderBody()
+            </main>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - ApexCareSolutions - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-
-    @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

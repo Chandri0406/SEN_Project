@@ -1,0 +1,45 @@
+﻿body {
+    background-color: #3D3D3D; /* Overall background color */
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+#loginBody {
+    background-color: #C7C7BF; /* Background color for the login box */
+    width: 306px; /* Fixed width for the box */
+    padding: 50px; /* Inner padding */
+    box-shadow: 5px 5px 4px #00224E; /* Shadow effect */
+    border-radius: 10px; /* Rounded corners (optional) */
+}
+
+.fields {
+    margin-bottom: 20px; /* Space between fields */
+}
+
+.error-message {
+    color: red; /* Error message color */
+    font-size: 12px; /* Font size for error message */
+}
+
+/* Button styles */
+#loginBtn {
+    width: 82px; /* Fixed width for button */
+    height: 27px; /* Fixed height for button */
+}
+
+/* Optional styles for inputs */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%; /* Full width for inputs */
+    padding: 5px; /* Inner padding for better appearance */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+}
+
+select {
+    height: 36px; /* Fixed height for select */
+}

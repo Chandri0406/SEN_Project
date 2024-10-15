@@ -2,3 +2,36 @@
 @model ApexCareSolutions.Pages.Client.complaintModel
 @{
 }
+
+<div class="mainContent">
+    <form method="post">
+        @Html.AntiForgeryToken()
+
+        <div>
+            <label asp-for="complaint.ClientID">Client ID:</label>
+            <input type="number" asp-for="complaint.ClientID" />
+        </div>
+
+        <div>
+            <label asp-for = "complaint.IssueID">Issue ID:</label>
+            <input type="text" asp-for="complaint.IssueID" />
+        </div>
+
+        <div>
+            <label asp-for="complaint.DateReported">Date:</label>
+            <input type="date" asp-for="complaint.DateReported" />
+        </div>
+
+        <div>
+            <label asp-for="complaint.Description">Date resolved:</label>
+            <input type="date" asp-for="complaint.DateResolved" />
+        </div>
+
+        <div>
+            <label asp-for="complaint.Description">Description:</label>
+            <input type="text" asp-for="complaint.Description" />
+        </div>
+
+        <button type="submit">Send</button>
+        </form>
+</div>
